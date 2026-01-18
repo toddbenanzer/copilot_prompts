@@ -4,26 +4,24 @@
 
 ### Daily Email Management
 
-**Prompt E1: Email Triage for <INDUSTRY> Context**
+**Prompt E1: Email Triage & Delegation Assistant**
 ```
-"Analyze my emails from the last <TIME_PERIOD> and categorize:
+"Analyze my emails from the last <TIME_PERIOD> and categorize for action:
 
-🔴 URGENT (respond today):
+🔴 URGENT (I must do):
 - <REGULATORY_TYPE>/compliance emails
 - <EXECUTIVE_LEVEL> requests  
 - <CRITICAL_SYSTEM>/data issues
 
-🟡 HIGH PRIORITY (respond within <TIMEFRAME>):
-- <PRIMARY_METRIC> performance questions
-- <STAKEHOLDER_TYPE> data requests
-- Team escalations
+🟡 DELEGATE (Team Action):
+- <STAKEHOLDER_TYPE> data requests -> Suggest Owner: <TEAM_MEMBER>
+- Routine performance questions -> Suggest Owner: <TEAM_MEMBER>
 
-🟢 ROUTINE (respond this week):
+🟢 FYIs & NOISE (Read later/Archive):
 - Meeting confirmations
-- Status updates
-- General inquiries
+- General newsletters
 
-For each email, show: Sender | Subject | Response deadline"
+Table Format: Sender | Subject | My Action (Do/Delegate) | Proposed Owner"
 ```
 
 **Prompt E2: Daily Closure and Tomorrow's Prep**
@@ -56,24 +54,21 @@ For each email, show: Sender | Subject | Response deadline"
 
 ### Daily & Weekly Planning
 
-**Prompt C1: Executive Morning Briefing**
+**Prompt C1: Logistics & Prep Check**
 ```
-"Create my daily briefing from calendar and recent emails:
+"Analyze my calendar for today/tomorrow:
 
-⏰ NEXT <TIME_WINDOW> - IMMEDIATE:
-- Upcoming meetings with prep requirements for <FOCUS_AREA>
-- Calendar conflicts needing resolution
+⚠️ PREP GAPS (Action Required):
+- Meetings with <EXECUTIVE_LEVEL> where I have 0 prep time scheduled
+- Documents attached to upcoming meetings I haven't opened
 
-📅 TODAY'S SCHEDULE:
-Meeting | Time | Attendees | Prep Status | Materials Needed
+⏱️ LOGISTICS & BUFFER:
+- Back-to-back meetings with no transition time
+- Travel time conflicts
 
-🎯 FOCUS TIME AVAILABLE:
-- Open blocks for <WORK_TYPE> work
-- Buffer time between meetings
-
-⚠️ CONFLICTS & ADJUSTMENTS:
-- Double bookings
-- Travel time issues"
+📅 SCHEDULE OPTIMIZATION:
+- Suggest moving <MEETING_TYPE> to create a 2-hour deep work block
+- Flag meetings that can be shortened or delegated"
 ```
 
 **Prompt C2: Weekly Leadership Overview (Run vs Change)**
@@ -143,6 +138,11 @@ Project | Owner | Status | % Complete | Next Milestone
 2. <RECOMMENDATION_TYPE> recommendation
 3. <REQUEST_TYPE> request/issue
 
+😈 DEVIL'S ADVOCATE (Counter-Arguments):
+- Strongest argument AGAINST my proposal: <ARGUMENT>
+- My Rebuttal: <DATA_POINT>
+- "What if we do nothing?" -> Impact Analysis
+
 ❓ LIKELY QUESTIONS:
 - Question 1 about <TOPIC_1> → Prepared answer
 - Question 2 about <TOPIC_2> → Prepared answer"
@@ -159,6 +159,11 @@ Project | Owner | Status | % Complete | Next Milestone
   - Rationale: <WHY>
   - Alternatives Considered: <ALTERNATIVES>
   - Approver: <NAME>
+
+📢 COMMUNICATION CASCADE:
+- Who needs to know? (Risk / Legal / Ops / Sales)
+- Message: <DRAFT_BLURB>
+- Channel: (Email / Teams Post / Town Hall)
 
 📋 ACTION ITEMS:
 Task | Owner | Deadline | Dependencies | Success Criteria

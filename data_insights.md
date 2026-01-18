@@ -22,7 +22,10 @@ Please follow these steps to create the presentation outline:
       - **Customer Segmentation:** High Net Worth vs Mass Market behaviors.
       - **Product Performance:** Trends in Mortgages, Credit Cards, Savings, vs Loans.
       - **Channel Mix:** Digital (App/Web) vs Branch vs Call Center volume.
-   c. Highlight notable insights, such as significant increases (Growth), dips (Churn risk), or correlations (Cross-sell opportunities).
+   c. Highlight notable insights and anomalies:
+      - Significant increases (Growth) or dips (Churn risk).
+      - **Data Breaks:** Unexpected zeros, missing values, or impossible spikes (e.g., negative interest rates).
+      - **Fraud Patterns:** Velocity checks or unusual transaction pairings.
    d. Categorize these insights into 3-5 logical sections that could each become a slide.
    e. For each section, brainstorm:
       - Multiple options for clear and concise slide titles
