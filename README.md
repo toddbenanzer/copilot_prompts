@@ -42,22 +42,24 @@ These prompts use placeholders (e.g., `<PLACEHOLDER>`) to remain flexible. For y
 ### 2. Manage Team (Direction & Optimization)
 *Align your reports and optimize resource allocation.*
 
-*   **[OneNote] Priority Matrix (`N1`)**: "Create weekly team priority matrix... Urgent vs Important."
-    *   *Use when:* Setting the week's direction during your Monday team sync.
+*   **[OneNote] Banking Priority Matrix (`N1`)**: "Create priority matrix... Regulatory (Must Do) vs Growth (Strategic)."
+    *   *Use when:* Setting the week's direction. Explicitly balances compliance mandates with commercial goals.
 *   **[OneNote] Meeting Agenda (`N3`)**: "Create meeting agenda... Risk & Compliance Moment."
     *   *Use when:* Setting the agenda. Ensures mandatory regulatory topics are never skipped.
+*   **[Teams] Analytics Team Pulse (`T1`)**: "Summarize team updates... Data Quality & Risk check."
+    *   *Use when:* Checking the health of your data pipeline and model risk status alongside project updates.
 *   **[OneNote] Resource Optimization (`N4`)**: "Create team resource optimization... Key Person Dependencies."
     *   *Use when:* Identifying single points of failure (e.g., "Only Sarah knows the Churn model") and managing talent risk.
 
 ### 3. Manage Up (Visibility & Status)
 *Keep senior leadership informed and confident.*
 
-*   **[OneNote] Executive Brief (`N6`)**: "Create one-page executive summary... Headline Insights."
-    *   *Use when:* Preparing for a monthly business review (MBR) or steering committee.
+*   **[OneNote] C-Suite Strategic Brief (`N6`)**: "Create one-page strategic brief... Financial Impact & Decisions."
+    *   *Use when:* Preparing for non-technical leadership. Focuses on money, market opportunity, and decisions required.
 *   **[OneNote] ROI & Attribution (`N7`)**: "Generate comprehensive ROI analysis... Incrementality & Lift."
     *   *Use when:* Proving the *net-new* value of marketing spend, not just last-click attribution.
-*   **[OneNote] Governance Review (`N5`)**: "Generate monthly data governance status report."
-    *   *Use when:* Reporting on compliance, privacy, and data quality (crucial in Retail Banking).
+*   **[OneNote] Audit & Regulatory Readiness (`N5`)**: "Generate monthly audit & regulatory status report."
+    *   *Use when:* Tracking MRAs, Audit findings, and SLA breaches to stay out of "Red" status.
 
 ### 4. Strategy & Creation (Roadmap & Content)
 *Deep work, planning, and content generation.*

@@ -103,27 +103,27 @@ Meeting | Time | Attendees | Prep Status | Materials Needed
 
 ### Team Communication & Meeting Management
 
-**Prompt T1: <TEAM_NAME> Team Status Check**
+**Prompt T1: Analytics Team Pulse & Data Health**
 ```
 "Summarize <TEAM_NAME> team updates from past <TIME_PERIOD> across all channels:
 
-🚀 PROJECT STATUS:
-Project Name | Owner | Status | % Complete | Next Milestone
+📊 PIPELINE & DELIVERY:
+Project | Owner | Status | % Complete | Next Milestone
 
-🚫 BLOCKERS & ISSUES:
-- Technical issues with <SYSTEM_TYPE>/systems
-- Resource constraints
-- Waiting for <STAKEHOLDER_TYPE> inputs
+🛡️ DATA QUALITY & RISK:
+- Data Integrity issues (ETL/Pipeline)
+- Model Risk/Validation status
+- Compliance/Privacy flags
 
-⚡ DECISIONS NEEDED FROM ME:
-- <DECISION_TYPE> approvals
-- <DIRECTION_TYPE> direction
-- <RESOURCE_TYPE> allocation
+🚫 BLOCKERS:
+- Technical constraints (Cloud/Compute)
+- Missing requirements from <STAKEHOLDER_TYPE>
+- Resource bottlenecks
 
-📊 KEY METRICS MENTIONED:
-- <METRIC_TYPE> performance updates
-- <QUALITY_TYPE> quality issues
-- <COMPLIANCE_TYPE> concerns"
+⚡ DECISIONS NEEDED:
+- Methodology approvals
+- Prioritization calls (Reg vs Comm)
+- Resource allocation"
 ```
 
 **Prompt T2: <STAKEHOLDER_TYPE> Meeting Preparation**
@@ -179,29 +179,28 @@ Task | Owner | Deadline | Dependencies | Success Criteria
 
 ### Strategic Planning & Documentation
 
-**Prompt N1: <TEAM_TYPE> Priority Matrix**
+**Prompt N1: Banking Priority Matrix (Reg vs Growth)**
 ```
-"Create weekly team priority matrix in visual format:
+"Create weekly team priority matrix distinguishing Regulatory requirements from Commercial growth:
 
-🔥 URGENT + IMPORTANT:
-- <CRITICAL_TYPE> deadlines
-- <LEADERSHIP_LEVEL> requests
-- <SYSTEM_TYPE> outages
+🏦 REGULATORY & COMPLIANCE (MUST DO):
+- Audit/Risk findings (SLA: <SLA_DATE>)
+- Data Governance remediations
+- Mandatory Reporting
+*Goal: 100% Accuracy & Timeliness*
 
-⭐ IMPORTANT + NOT URGENT:
-- Strategic <PROJECT_TYPE> development
-- <IMPROVEMENT_TYPE> improvements
-- <DEVELOPMENT_TYPE> development
+🚀 COMMERCIAL & GROWTH (STRATEGIC):
+- Campaign Analytics for <PRODUCT_TYPE>
+- Customer Segmentation Models
+- ROI/Performance Analysis
+*Goal: Maximum Business Impact*
 
-⚡ URGENT + NOT IMPORTANT:
-- Routine <REPORT_TYPE>
-- <REQUEST_TYPE> requests
-- <ADMIN_TYPE> tasks
+🔧 OPERATIONAL & MAINTENANCE:
+- Data Pipeline stability
+- Dashboard updates
+- Ad-hoc requests
 
-📝 NEITHER (ELIMINATE):
-- <LOW_VALUE_TYPE> activities
-
-Each item: Owner | Deadline | Hours Estimated | Dependencies"
+Visual Format: Priority | Category (Reg/Growth) | Owner | Stakeholder | Deadline"
 ```
 
 **Prompt N2: Weekly Performance and Strategic Assessment**
@@ -283,52 +282,51 @@ Team Member | Utilization % | Key Skills | Flight Risk (Low/Med/High)
 - Projects requiring extension: List with revised dates"
 ```
 
-**Prompt N5: Data Governance and <COMPLIANCE_TYPE> Review**
+**Prompt N5: Audit & Regulatory Readiness Review**
 ```
-"Generate monthly <GOVERNANCE_TYPE> governance status report:
+"Generate monthly Audit & Regulatory Readiness status report:
 
-📊 COMPLIANCE DASHBOARD:
-- <QUALITY_METRIC> Score: X% (Target: <TARGET>%)
-- <VALIDATION_TYPE> Status: X of Y complete
-- <AUDIT_TYPE> Readiness: Green/Yellow/Red
-- <PRIVACY_TYPE> Compliance: X violations, Y resolved
+📊 AUDIT FINDINGS TRACKER:
+- Open MRAs (Matters Requiring Attention): <COUNT>
+- Findings approaching SLA breach: <LIST>
+- Validation Evidence Status: Green/Yellow/Red
 
-🚨 RISK INDICATORS:
-Risk Type | Severity | Impact | Mitigation Status | Owner
+🛡️ REGULATORY REPORTING HEALTH:
+- <REGULATORY_REPORT_NAME> Submission Status: On-Track/Risk
+- Data Lineage Gaps identified: <COUNT>
+- Key Controls Testing results: Pass/Fail %
 
-⚡ IMMEDIATE ACTIONS REQUIRED:
-- Action 1 - <Deadline> - <Owner>
-- Action 2 - <Deadline> - <Owner>
+⚡ REMEDIATION ACTIONS:
+- Action 1 (Audit Finding #): <Owner> - <Deadline>
+- Action 2 (Data Quality): <Owner> - <Deadline>
 
-📈 TREND ANALYSIS:
-- Month-over-month improvements: List
-- Concerning patterns: List with action plans
-- <REGULATORY_TYPE> updates affecting <BUSINESS_AREA>: Summary"
+📈 RISK PROFILE TREND:
+- Repeat findings count
+- Emerging regulatory obligations for <BUSINESS_AREA>"
 ```
 
-**Prompt N6: Executive <BUSINESS_AREA> Brief**
+**Prompt N6: C-Suite Strategic Brief**
 ```
-"Create one-page executive summary for <AUDIENCE_LEVEL>:
+"Create a one-page strategic brief for <AUDIENCE_LEVEL> (Non-Technical Audience). Focus on financial impact and market position.
 
-🎯 HEADLINE INSIGHTS (<NUMBER> Key Takeaways):
-1. <INSIGHT_TYPE> insight with $<VALUE> value
-2. <OPPORTUNITY_TYPE> opportunity with <ROI_TYPE> estimate
-3. <RISK_TYPE> mitigation with <BENEFIT_TYPE> benefit
+🎯 EXECUTIVE HEADLINES:
+1. **Financial Impact:** $<VALUE> value realized from <INITIATIVE_TYPE>
+2. **Market Opportunity:** <OPPORTUNITY_TYPE> with potential <ROI_TYPE>
+3. **Risk Mitigation:** <RISK_TYPE> addressed, protecting <ASSET_TYPE>
 
-📊 PERFORMANCE DASHBOARD:
-- <METRIC_1>: Current vs Target
-- <METRIC_2>: % by <DIMENSION>
-- <METRIC_3>: Trending analysis
-- <METRIC_4>: Segment breakdown
+📊 BUSINESS PERFORMANCE (Financials & Growth):
+- <METRIC_1> (Revenue/Cost): Current vs Target
+- <METRIC_2> (Customer): Acquisition/Retention Trends
+- <METRIC_3> (Market): Share/Competitive Position
 
-💡 STRATEGIC RECOMMENDATIONS:
-1. <Recommendation> - <ROI estimate> - <Timeline>
-2. <Recommendation> - <ROI estimate> - <Timeline>
+💡 DECISION REQUIRED:
+- **Proposal:** <Recommendation>
+- **Financial Benefit:** <ROI estimate> over <Timeline>
+- **Investment:** <Cost> (CAPEX/OPEX)
 
-💰 RESOURCE REQUESTS:
-- <RESOURCE_TYPE_1>: <Need> - <Cost> - <Business case>
-- <RESOURCE_TYPE_2>: <Role> - <Cost> - <Impact on capacity>
-- <RESOURCE_TYPE_3>: <Amount> - <Purpose> - <Expected return>"
+💰 RESOURCE ALLOCATION:
+- <RESOURCE_TYPE_1>: <Need> - <Business case>
+- <RESOURCE_TYPE_2>: <Role> - <Impact on P&L>"
 ```
 
 **Prompt N7: Marketing ROI & Attribution Analysis**
