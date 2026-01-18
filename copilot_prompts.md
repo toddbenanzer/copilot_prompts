@@ -4,26 +4,26 @@
 
 ### Daily Email Management
 
-**Prompt E1: Email Triage for <INDUSTRY> Context**
+**Prompt E1: Executive Morning Start (Calendar + Email)**
 ```
-"Analyze my emails from the last <TIME_PERIOD> and categorize:
+"Act as my Chief of Staff. Analyze my calendar for today and emails from the last <TIME_PERIOD>.
 
-🔴 URGENT (respond today):
+⏰ DAILY BRIEFING:
+- **First Focus:** Upcoming meetings with prep requirements for <FOCUS_AREA>.
+- **Conflicts:** Any double bookings or travel issues?
+- **Buffer:** When are my open blocks for <WORK_TYPE>?
+
+🔴 URGENT TRIAGE (Action Today):
 - <REGULATORY_TYPE>/compliance emails
 - <EXECUTIVE_LEVEL> requests  
 - <CRITICAL_SYSTEM>/data issues
 
-🟡 HIGH PRIORITY (respond within <TIMEFRAME>):
+🟡 PRIORITY QUEUE (Review Later):
 - <PRIMARY_METRIC> performance questions
 - <STAKEHOLDER_TYPE> data requests
 - Team escalations
 
-🟢 ROUTINE (respond this week):
-- Meeting confirmations
-- Status updates
-- General inquiries
-
-For each email, show: Sender | Subject | Response deadline"
+For each urgent email: Sender | Subject | Proposed Action"
 ```
 
 **Prompt E2: Daily Closure and Tomorrow's Prep**
@@ -45,31 +45,33 @@ For each email, show: Sender | Subject | Response deadline"
 - Scheduled sends to review"
 ```
 
+**Prompt E3: Senior Leader Commitment Scan**
+```
+"Review emails from <EXECUTIVE_LEVEL> leadership from the last <TIME_PERIOD>:
+
+🔍 ACTIONABLE REQUESTS:
+- Direct asks/tasks assigned to me
+- Questions requiring my response
+- Data/Information requests
+
+📅 DEADLINES & MILESTONES:
+- Specific dates mentioned
+- Upcoming review meetings
+
+🚩 IMPLIED EXPECTATIONS:
+- 'Heads up' items requiring monitoring
+- Strategic priorities mentioned
+
+Table format: Request | Who | Deadline | Context/Urgency"
+```
+
 ---
 
 ## 📅 OUTLOOK CALENDAR PROMPTS
 
 ### Daily & Weekly Planning
 
-**Prompt C1: Executive Morning Briefing**
-```
-"Create my daily briefing from calendar and recent emails:
-
-⏰ NEXT <TIME_WINDOW> - IMMEDIATE:
-- Upcoming meetings with prep requirements for <FOCUS_AREA>
-- Calendar conflicts needing resolution
-
-📅 TODAY'S SCHEDULE:
-Meeting | Time | Attendees | Prep Status | Materials Needed
-
-🎯 FOCUS TIME AVAILABLE:
-- Open blocks for <WORK_TYPE> work
-- Buffer time between meetings
-
-⚠️ CONFLICTS & ADJUSTMENTS:
-- Double bookings
-- Travel time issues"
-```
+*(Note: Daily briefing is now combined with Email Triage in Prompt E1)*
 
 **Prompt C2: Weekly <ROLE_TYPE> Leadership Overview**
 ```
@@ -98,27 +100,27 @@ Meeting | Time | Attendees | Prep Status | Materials Needed
 
 ### Team Communication & Meeting Management
 
-**Prompt T1: <TEAM_NAME> Team Status Check**
+**Prompt T1: Analytics Team Pulse & Data Health**
 ```
 "Summarize <TEAM_NAME> team updates from past <TIME_PERIOD> across all channels:
 
-🚀 PROJECT STATUS:
-Project Name | Owner | Status | % Complete | Next Milestone
+📊 PIPELINE & DELIVERY:
+Project | Owner | Status | % Complete | Next Milestone
 
-🚫 BLOCKERS & ISSUES:
-- Technical issues with <SYSTEM_TYPE>/systems
-- Resource constraints
-- Waiting for <STAKEHOLDER_TYPE> inputs
+🛡️ DATA QUALITY & RISK:
+- Data Integrity issues (ETL/Pipeline)
+- Model Risk/Validation status
+- Compliance/Privacy flags
 
-⚡ DECISIONS NEEDED FROM ME:
-- <DECISION_TYPE> approvals
-- <DIRECTION_TYPE> direction
-- <RESOURCE_TYPE> allocation
+🚫 BLOCKERS:
+- Technical constraints (Cloud/Compute)
+- Missing requirements from <STAKEHOLDER_TYPE>
+- Resource bottlenecks
 
-📊 KEY METRICS MENTIONED:
-- <METRIC_TYPE> performance updates
-- <QUALITY_TYPE> quality issues
-- <COMPLIANCE_TYPE> concerns"
+⚡ DECISIONS NEEDED:
+- Methodology approvals
+- Prioritization calls (Reg vs Comm)
+- Resource allocation"
 ```
 
 **Prompt T2: <STAKEHOLDER_TYPE> Meeting Preparation**
@@ -174,29 +176,28 @@ Task | Owner | Deadline | Dependencies | Success Criteria
 
 ### Strategic Planning & Documentation
 
-**Prompt N1: <TEAM_TYPE> Priority Matrix**
+**Prompt N1: Banking Priority Matrix (Reg vs Growth)**
 ```
-"Create weekly team priority matrix in visual format:
+"Create weekly team priority matrix distinguishing Regulatory requirements from Commercial growth:
 
-🔥 URGENT + IMPORTANT:
-- <CRITICAL_TYPE> deadlines
-- <LEADERSHIP_LEVEL> requests
-- <SYSTEM_TYPE> outages
+🏦 REGULATORY & COMPLIANCE (MUST DO):
+- Audit/Risk findings (SLA: <SLA_DATE>)
+- Data Governance remediations
+- Mandatory Reporting
+*Goal: 100% Accuracy & Timeliness*
 
-⭐ IMPORTANT + NOT URGENT:
-- Strategic <PROJECT_TYPE> development
-- <IMPROVEMENT_TYPE> improvements
-- <DEVELOPMENT_TYPE> development
+🚀 COMMERCIAL & GROWTH (STRATEGIC):
+- Campaign Analytics for <PRODUCT_TYPE>
+- Customer Segmentation Models
+- ROI/Performance Analysis
+*Goal: Maximum Business Impact*
 
-⚡ URGENT + NOT IMPORTANT:
-- Routine <REPORT_TYPE>
-- <REQUEST_TYPE> requests
-- <ADMIN_TYPE> tasks
+🔧 OPERATIONAL & MAINTENANCE:
+- Data Pipeline stability
+- Dashboard updates
+- Ad-hoc requests
 
-📝 NEITHER (ELIMINATE):
-- <LOW_VALUE_TYPE> activities
-
-Each item: Owner | Deadline | Hours Estimated | Dependencies"
+Visual Format: Priority | Category (Reg/Growth) | Owner | Stakeholder | Deadline"
 ```
 
 **Prompt N2: Weekly Performance and Strategic Assessment**
@@ -293,29 +294,28 @@ Risk Type | Severity | Impact | Mitigation Status | Owner
 - <REGULATORY_TYPE> updates affecting <BUSINESS_AREA>: Summary"
 ```
 
-**Prompt N6: Executive <BUSINESS_AREA> Brief**
+**Prompt N6: C-Suite Strategic Brief**
 ```
-"Create one-page executive summary for <AUDIENCE_LEVEL>:
+"Create a one-page strategic brief for <AUDIENCE_LEVEL> (Non-Technical Audience). Focus on financial impact and market position.
 
-🎯 HEADLINE INSIGHTS (<NUMBER> Key Takeaways):
-1. <INSIGHT_TYPE> insight with $<VALUE> value
-2. <OPPORTUNITY_TYPE> opportunity with <ROI_TYPE> estimate  
-3. <RISK_TYPE> mitigation with <BENEFIT_TYPE> benefit
+🎯 EXECUTIVE HEADLINES:
+1. **Financial Impact:** $<VALUE> value realized from <INITIATIVE_TYPE>
+2. **Market Opportunity:** <OPPORTUNITY_TYPE> with potential <ROI_TYPE>
+3. **Risk Mitigation:** <RISK_TYPE> addressed, protecting <ASSET_TYPE>
 
-📊 PERFORMANCE DASHBOARD:
-- <METRIC_1>: Current vs Target
-- <METRIC_2>: % by <DIMENSION>
-- <METRIC_3>: Trending analysis
-- <METRIC_4>: Segment breakdown
+📊 BUSINESS PERFORMANCE (Financials & Growth):
+- <METRIC_1> (Revenue/Cost): Current vs Target
+- <METRIC_2> (Customer): Acquisition/Retention Trends
+- <METRIC_3> (Market): Share/Competitive Position
 
-💡 STRATEGIC RECOMMENDATIONS:
-1. <Recommendation> - <ROI estimate> - <Timeline>
-2. <Recommendation> - <ROI estimate> - <Timeline>
+💡 DECISION REQUIRED:
+- **Proposal:** <Recommendation>
+- **Financial Benefit:** <ROI estimate> over <Timeline>
+- **Investment:** <Cost> (CAPEX/OPEX)
 
-💰 RESOURCE REQUESTS:
-- <RESOURCE_TYPE_1>: <Need> - <Cost> - <Business case>
-- <RESOURCE_TYPE_2>: <Role> - <Cost> - <Impact on capacity>
-- <RESOURCE_TYPE_3>: <Amount> - <Purpose> - <Expected return>"
+💰 RESOURCE ALLOCATION:
+- <RESOURCE_TYPE_1>: <Need> - <Business case>
+- <RESOURCE_TYPE_2>: <Role> - <Impact on P&L>"
 ```
 
 **Prompt N7: <BUSINESS_FUNCTION> ROI Report**
@@ -377,8 +377,8 @@ Team Member | Current Skills | Target Skills | Training Plan | Timeline
 ### Morning Startup (8:00-8:30 AM)
 | Time | Tool | Prompt | Purpose |
 |------|------|---------|---------|
-| 8:00 AM | Outlook Calendar | **C1: Executive Morning Briefing** | Daily planning and conflict resolution |
-| 8:15 AM | Outlook Email | **E1: Email Triage** | Prioritize inbox for the day |
+| 8:00 AM | Outlook (Combined) | **E1: Executive Morning Start** | Unified briefing: Calendar + Inbox Triage |
+| 8:20 AM | Outlook Email | **E3: Commitment Scan** | Track executive requests and asks |
 | 8:25 AM | Teams | **T1: Team Status Check** | Catch up on overnight team activity |
 
 ### End of Day (5:30-6:00 PM)
