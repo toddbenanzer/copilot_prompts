@@ -10,8 +10,9 @@
 
 🔴 URGENT (I must do):
 - <REGULATORY_TYPE>/compliance emails
-- <EXECUTIVE_LEVEL> requests  
+- <EXECUTIVE_LEVEL> requests
 - <CRITICAL_SYSTEM>/data issues
+*Security Check: Does that 'Urgent Wire Request' look real? Flag if suspicious.*
 
 🟡 DELEGATE (Team Action):
 - <STAKEHOLDER_TYPE> data requests -> Suggest Owner: <TEAM_MEMBER>
@@ -117,12 +118,13 @@ Table format: Request | Who | Deadline | Context/Urgency"
 
 ### Team Communication & Meeting Management
 
-**Prompt T1: Analytics Team Pulse & Data Health**
+**Prompt T1: Analytics Team Pulse & Agile Metrics**
 ```
 "Summarize <TEAM_NAME> team updates from past <TIME_PERIOD> across all channels:
 
-📊 PIPELINE & DELIVERY:
-Project | Owner | Status | % Complete | Next Milestone
+🏃 AGILE VELOCITY & DELIVERY:
+Project | Velocity (vs Avg) | Blocked Stories | Sprint Burndown Status
+*Focus: Are we shipping code or just attending meetings?*
 
 🛡️ DATA QUALITY & RISK:
 - Data Integrity issues (ETL/Pipeline)
@@ -163,6 +165,10 @@ Project | Owner | Status | % Complete | Next Milestone
 1. <INSIGHT_TYPE> insight with supporting data
 2. <RECOMMENDATION_TYPE> recommendation
 3. <REQUEST_TYPE> request/issue
+
+⚓ HIPPO DEFENSE (Data Anchoring):
+- If <SENIOR_LEADER> says "I feel...", I counter with "The data shows..."
+- Pre-emptive Fact: <STATISTIC> that disproves common misconceptions.
 
 😈 DEVIL'S ADVOCATE (Counter-Arguments):
 - Strongest argument AGAINST my proposal: <ARGUMENT>
@@ -311,6 +317,11 @@ Team Member | Utilization % | Key Skills | Flight Risk (Low/Med/High)
 - Co-Employment Risk Flags: <LIST>
 - Conversion candidates: <NAMES>
 
+🌍 GLOBAL DELIVERY & HANDOVER:
+- Onshore/Offshore Ratio: <RATIO>
+- Handoff friction points: Are specs clear for the overnight team?
+- Timezone Coverage gaps: <HOURS>
+
 🔄 OPTIMIZATION RECOMMENDATIONS:
 - Reallocation suggestion 1 for <PROJECT_TYPE> with rationale
 - Reallocation suggestion 2 for <PROJECT_TYPE> with rationale
@@ -431,6 +442,11 @@ Current State | Target State | Priority | Effort Level
 Phase 1 (<TIMEFRAME_1>): <INFRASTRUCTURE_TYPE> needs + Decommissioning <LEGACY_SYSTEM>
 Phase 2 (<TIMEFRAME_2>): <IMPLEMENTATION_TYPE> implementation
 Phase 3 (<TIMEFRAME_3>): <CAPABILITY_TYPE> capabilities
+
+💰 CLOUD FINOPS & UNIT ECONOMICS:
+- Compute Spend Forecast: <AMOUNT> (Trend: <UP/DOWN>)
+- Cost per Model Inference: <COST> vs Target
+- Optimization: Reserved Instances/Spot usage status
 
 📊 SUCCESS METRICS BY PHASE:
 <MILESTONE_1>: <Target> | Success Criteria | Risk Mitigation

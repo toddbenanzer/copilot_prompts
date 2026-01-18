@@ -30,8 +30,8 @@ These prompts use placeholders (e.g., `<PLACEHOLDER>`) to remain flexible. For y
 ### 1. Manage Self (Efficiency & Focus)
 *Reduce noise and focus on what matters immediately.*
 
-*   **[Outlook] Email Triage (`E1`)**: "Analyze my emails... categorize by Urgent/High Priority."
-    *   *Use when:* Starting your day to cut through the inbox clutter.
+*   **[Outlook] Email Triage (`E1`)**: "Analyze emails... Delegate & Security Check."
+    *   *Use when:* Speed-clearing the inbox. Suggests owners for delegation and flags phishing attempts.
 *   **[Outlook] Commitment Scan (`E3`)**: "Review emails... Internal Asks vs Regulatory Promises."
     *   *Use when:* Distinguishing between a boss's request and a compliance mandate.
 *   **[Calendar] Weekly Overview (`C2`)**: "Analyze calendar... Run vs Change Analysis."
@@ -46,10 +46,10 @@ These prompts use placeholders (e.g., `<PLACEHOLDER>`) to remain flexible. For y
     *   *Use when:* Setting the week's direction. Explicitly balances compliance mandates with commercial goals.
 *   **[OneNote] Meeting Agenda (`N3`)**: "Create meeting agenda... Risk & Compliance Moment."
     *   *Use when:* Setting the agenda. Ensures mandatory regulatory topics are never skipped.
-*   **[Teams] Analytics Team Pulse (`T1`)**: "Summarize team updates... Data Quality & Vendor Health."
-    *   *Use when:* Checking data pipelines, model risk, and critical MarTech vendor performance (e.g. Adobe/Salesforce).
-*   **[OneNote] Resource Optimization (`N4`)**: "Create team resource optimization... Contractor Risk."
-    *   *Use when:* Managing co-employment risk and FTE vs Contractor ratios in addition to key dependencies.
+*   **[Teams] Analytics Team Pulse (`T1`)**: "Summarize team updates... Agile Velocity & Vendor Health."
+    *   *Use when:* Tracking Sprint Burndown, Blockers, and MarTech performance.
+*   **[OneNote] Resource Optimization (`N4`)**: "Create team resource... Global Delivery & Contractor Risk."
+    *   *Use when:* Managing Onshore/Offshore handovers, timezone coverage, and co-employment risk.
 *   **[OneNote] Performance Review (`N2`)**: "Weekly review... KRIs & Talent Pulse."
     *   *Use when:* Reviewing team wins, Model Drift, and recognizing top performers to prevent burnout.
 
@@ -66,8 +66,8 @@ These prompts use placeholders (e.g., `<PLACEHOLDER>`) to remain flexible. For y
 ### 4. Strategy & Creation (Roadmap & Content)
 *Deep work, planning, and content generation.*
 
-*   **[OneNote] Banking Strategy Roadmap (`N8`)**: "Develop strategy... Ethical AI & Regulatory Scan."
-    *   *Use when:* Planning the next year. Assessing Bias/Fair Lending risks alongside tech capabilities.
+*   **[OneNote] Banking Strategy Roadmap (`N8`)**: "Develop strategy... Cloud FinOps & Ethical AI."
+    *   *Use when:* Planning the next year. Balancing Tech Debt, Compute Costs (FinOps), and Fair Lending risk.
 *   **[System] Data to Presentation (`data_insights.md`)**: A specialized prompt to turn a raw spreadsheet into a slide outline.
     *   *Use when:* You have a CSV of campaign results and need a presentation outline immediately.
 *   **[System] Notes to Slides (`notes_to_slides.md`)**: A specialized prompt to turn your dictated brain dump into a 7-slide deck.
