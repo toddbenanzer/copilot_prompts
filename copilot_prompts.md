@@ -76,16 +76,14 @@ Meeting | Time | Attendees | Prep Status | Materials Needed
 - Travel time issues"
 ```
 
-**Prompt C2: Weekly <ROLE_TYPE> Leadership Overview**
+**Prompt C2: Weekly Leadership Overview (Run vs Change)**
 ```
 "Analyze my upcoming week's calendar:
 
-📊 MEETING BREAKDOWN:
-- <CATEGORY_1>: X hours, Y%
-- <CATEGORY_2>: X hours, Y% 
-- <CATEGORY_3>: X hours, Y%
-- <CATEGORY_4>: X hours, Y%
-- <CATEGORY_5>: X hours, Y%
+📊 RUN vs CHANGE ANALYSIS:
+- **Run the Bank (RTB):** Routine status, ops, admin (Hours/%)
+- **Change the Bank (CTB):** Strategy, innovation, projects (Hours/%)
+- *Goal: >30% CTB*
 
 🎯 HIGH-IMPACT MEETINGS (Top <NUMBER>):
 1. <Meeting> - <Attendees> - <Prep needed>
@@ -135,10 +133,10 @@ Project | Owner | Status | % Complete | Next Milestone
 - Recent chat discussions about <TOPIC_AREA>
 - Shared documents/files related to <PROJECT_NAME>
 
-📈 RELEVANT METRICS:
-- Current <METRIC_1>: X%
+📈 DATA & CONFIDENCE:
+- Current <METRIC_1>: X% (Confidence: High/Med/Low)
 - <METRIC_2>: $X
-- <STATUS_METRIC>: Green/Yellow/Red
+- Data Limitations: Known gaps or caveats in this data
 
 💡 TALKING POINTS:
 1. <INSIGHT_TYPE> insight with supporting data
@@ -150,16 +148,17 @@ Project | Owner | Status | % Complete | Next Milestone
 - Question 2 about <TOPIC_2> → Prepared answer"
 ```
 
-**Prompt T3: Meeting Summary with <INDUSTRY> Context**
+**Prompt T3: Meeting Summary & Decision Audit Log**
 ```
 "Generate meeting summary from transcript/recording:
 
 📧 EMAIL SUBJECT: <MEETING_NAME> - Decisions & Actions - <DATE>
 
-✅ KEY DECISIONS:
-- <AREA_1> priority changes
-- <RESOURCE_TYPE>/resource approvals
-- <COMPLIANCE_TYPE> requirements
+📝 DECISION AUDIT LOG:
+- **Decision 1:** <DECISION_DETAILS>
+  - Rationale: <WHY>
+  - Alternatives Considered: <ALTERNATIVES>
+  - Approver: <NAME>
 
 📋 ACTION ITEMS:
 Task | Owner | Deadline | Dependencies | Success Criteria
@@ -203,14 +202,18 @@ Task | Owner | Deadline | Dependencies | Success Criteria
 Visual Format: Priority | Category (Reg/Growth) | Owner | Stakeholder | Deadline"
 ```
 
-**Prompt N2: Weekly Performance and Strategic Assessment**
+**Prompt N2: Weekly Performance & Risk Review**
 ```
 "Create comprehensive weekly <ROLE_TYPE> leadership review:
 
 🏆 WINS & ACHIEVEMENTS:
 - Quantified accomplishment 1 with <METRIC_TYPE> metrics
-- Quantified accomplishment 2 with <METRIC_TYPE> metrics  
-- Quantified accomplishment 3 with <METRIC_TYPE> metrics
+- Quantified accomplishment 2 with <METRIC_TYPE> metrics
+
+📉 KEY RISK INDICATORS (KRIs):
+- Model Performance: Drift/Degradation alerts
+- Data Quality Scores: <METRIC_VALUE> (Trend)
+- Operational Incidents: <COUNT>
 
 🔧 CHALLENGES & SOLUTIONS:
 Challenge | Root Cause | Action Plan | Owner | Timeline
@@ -218,12 +221,10 @@ Challenge | Root Cause | Action Plan | Owner | Timeline
 📊 STAKEHOLDER PULSE:
 - <STAKEHOLDER_1> Satisfaction: Feedback from recent interactions
 - <STAKEHOLDER_2>: <FEEDBACK_TYPE>
-- <STAKEHOLDER_3> Partnership: <COLLABORATION_STATUS>
 
 🎯 NEXT WEEK'S STRATEGIC FOCUS:
 1. <INITIATIVE_TYPE> initiative with <SUCCESS_TYPE> metrics
-2. <INITIATIVE_TYPE> initiative with <SUCCESS_TYPE> metrics
-3. <INITIATIVE_TYPE> initiative with <SUCCESS_TYPE> metrics"
+2. <INITIATIVE_TYPE> initiative with <SUCCESS_TYPE> metrics"
 ```
 
 **Prompt N3: <TEAM_NAME> Meeting Agenda Generation**
@@ -352,20 +353,22 @@ Channel | Spend | Last-Click ROI | Incremental Lift % | CPA (Blended vs Marginal
 - <MONITORING_TYPE> monitoring: Results"
 ```
 
-**Prompt N8: <TECHNOLOGY_TYPE> Strategy Development**
+**Prompt N8: Banking Strategy Roadmap (Reg & Tech)**
 ```
-"Develop <TIME_PERIOD> <TECHNOLOGY_TYPE> strategy roadmap:
+"Develop <TIME_PERIOD> strategy roadmap aligning Tech capabilities with Regulatory needs:
+
+🔭 REGULATORY HORIZON SCAN:
+- Upcoming Regulations (e.g., AI Act, Basel): Impact Assessment
+- Compliance Deadlines: <DATE>
+- Required Capability Upgrades: <LIST>
 
 🎯 CAPABILITY GAP ANALYSIS:
 Current State | Target State | Priority | Effort Level
 
 🛠️ TECHNOLOGY ROADMAP:
 Phase 1 (<TIMEFRAME_1>): <INFRASTRUCTURE_TYPE> needs
-Phase 2 (<TIMEFRAME_2>): <IMPLEMENTATION_TYPE> implementation 
+Phase 2 (<TIMEFRAME_2>): <IMPLEMENTATION_TYPE> implementation
 Phase 3 (<TIMEFRAME_3>): <CAPABILITY_TYPE> capabilities
-
-👥 TEAM DEVELOPMENT PLAN:
-Team Member | Current Skills | Target Skills | Training Plan | Timeline
 
 📊 SUCCESS METRICS BY PHASE:
 <MILESTONE_1>: <Target> | Success Criteria | Risk Mitigation

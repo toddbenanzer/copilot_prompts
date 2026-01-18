@@ -34,8 +34,8 @@ These prompts use placeholders (e.g., `<PLACEHOLDER>`) to remain flexible. For y
     *   *Use when:* Starting your day to cut through the inbox clutter.
 *   **[Outlook] Commitment Scan (`E3`)**: "Review emails from Leadership... find direct asks."
     *   *Use when:* You need to ensure no request from the C-Suite has slipped through the cracks.
-*   **[Calendar] Morning Briefing (`C1`)**: "Create my daily briefing... identify conflicts."
-    *   *Use when:* Planning your day's energy and logistics.
+*   **[Calendar] Weekly Overview (`C2`)**: "Analyze calendar... Run vs Change Analysis."
+    *   *Use when:* Monday morning planning. Ensures you aren't stuck in "Run the Bank" (Ops) mode all week.
 *   **[Outlook] Daily Closure (`E2`)**: "Create end-of-day summary... Incident & Escalation Check."
     *   *Use when:* Wrapping up. Ensures no P1 incidents or missed SLAs before you log off.
 
@@ -50,6 +50,8 @@ These prompts use placeholders (e.g., `<PLACEHOLDER>`) to remain flexible. For y
     *   *Use when:* Checking the health of your data pipeline and model risk status alongside project updates.
 *   **[OneNote] Resource Optimization (`N4`)**: "Create team resource optimization... Key Person Dependencies."
     *   *Use when:* Identifying single points of failure (e.g., "Only Sarah knows the Churn model") and managing talent risk.
+*   **[OneNote] Performance Review (`N2`)**: "Weekly review... Key Risk Indicators (KRIs)."
+    *   *Use when:* Reviewing team wins alongside Data Quality scores and Model Drift alerts.
 
 ### 3. Manage Up (Visibility & Status)
 *Keep senior leadership informed and confident.*
@@ -64,8 +66,8 @@ These prompts use placeholders (e.g., `<PLACEHOLDER>`) to remain flexible. For y
 ### 4. Strategy & Creation (Roadmap & Content)
 *Deep work, planning, and content generation.*
 
-*   **[OneNote] Strategy Development (`N8`)**: "Develop technology strategy roadmap... Capability Gap Analysis."
-    *   *Use when:* Planning the next quarter or year.
+*   **[OneNote] Banking Strategy Roadmap (`N8`)**: "Develop strategy... Regulatory Horizon Scan."
+    *   *Use when:* Planning the next year. Aligns tech capabilities with upcoming regulations (Basel, AI Act).
 *   **[System] Data to Presentation (`data_insights.md`)**: A specialized prompt to turn a raw spreadsheet into a slide outline.
     *   *Use when:* You have a CSV of campaign results and need a presentation outline immediately.
 *   **[System] Notes to Slides (`notes_to_slides.md`)**: A specialized prompt to turn your dictated brain dump into a 7-slide deck.
