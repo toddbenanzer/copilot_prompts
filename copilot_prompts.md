@@ -48,6 +48,27 @@ Table Format: Sender | Subject | My Action (Do/Delegate) | Proposed Owner"
 - Scheduled sends to review"
 ```
 
+**Prompt E3: Senior Leader Commitment Scan**
+```
+"Review emails from <EXECUTIVE_LEVEL> leadership from the last <TIME_PERIOD>:
+
+🔍 REGULATORY & AUDIT PROMISES (Highest Priority):
+- Commitments made to Regulators/Audit
+- MRA remediation dates mentioned
+- Policy acknowledgments
+
+🏢 LEADERSHIP ASKS (Strategic):
+- Direct asks from <EXECUTIVE_LEVEL>
+- Board material requests
+- "Heads up" items requiring monitoring
+
+📅 DEADLINES:
+- Hard Compliance Deadlines
+- Soft Business Milestones
+
+Table format: Request | Who | Deadline | Context/Urgency"
+```
+
 ---
 
 ## 📅 OUTLOOK CALENDAR PROMPTS
@@ -107,6 +128,11 @@ Project | Owner | Status | % Complete | Next Milestone
 - Data Integrity issues (ETL/Pipeline)
 - Model Risk/Validation status
 - Compliance/Privacy flags
+
+🏭 VENDOR & MARTECH HEALTH:
+- Adobe/Salesforce/Cloud Performance Issues
+- Contract Renewals approaching
+- Third-Party Risk Assessment status
 
 🚫 BLOCKERS:
 - Technical constraints (Cloud/Compute)
@@ -275,6 +301,11 @@ Project | % Complete | Team Members | Hours/Week | Target Completion
 Team Member | Utilization % | Key Skills | Flight Risk (Low/Med/High)
 *Flag: Who is the only person who knows <CRITICAL_SYSTEM>?*
 
+⚖️ LABOR MIX (FTE vs Contractor):
+- Current Ratio: <RATIO> (Target: <TARGET>)
+- Co-Employment Risk Flags: <LIST>
+- Conversion candidates: <NAMES>
+
 🔄 OPTIMIZATION RECOMMENDATIONS:
 - Reallocation suggestion 1 for <PROJECT_TYPE> with rationale
 - Reallocation suggestion 2 for <PROJECT_TYPE> with rationale
@@ -370,8 +401,14 @@ Channel | Spend | Last-Click ROI | Incremental Lift % | CPA (Blended vs Marginal
 🎯 CAPABILITY GAP ANALYSIS:
 Current State | Target State | Priority | Effort Level
 
-🛠️ TECHNOLOGY ROADMAP:
-Phase 1 (<TIMEFRAME_1>): <INFRASTRUCTURE_TYPE> needs
+⚖️ STRATEGIC ASSESSMENT (Buy vs Build):
+- Capability: <CAPABILITY_NAME>
+- Recommendation: <BUY/BUILD/PARTNER>
+- Rationale: Time-to-market vs IP Control vs Cost
+- Tech Debt Impact: Does this increase or decrease legacy load?
+
+🛠️ TECHNOLOGY ROADMAP (Inc. Debt Paydown):
+Phase 1 (<TIMEFRAME_1>): <INFRASTRUCTURE_TYPE> needs + Decommissioning <LEGACY_SYSTEM>
 Phase 2 (<TIMEFRAME_2>): <IMPLEMENTATION_TYPE> implementation
 Phase 3 (<TIMEFRAME_3>): <CAPABILITY_TYPE> capabilities
 
