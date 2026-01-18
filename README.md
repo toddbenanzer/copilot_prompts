@@ -36,8 +36,8 @@ These prompts use placeholders (e.g., `<PLACEHOLDER>`) to remain flexible. For y
     *   *Use when:* Distinguishing between a boss's request and a compliance mandate.
 *   **[Calendar] Weekly Overview (`C2`)**: "Analyze calendar... Run vs Change Analysis."
     *   *Use when:* Monday morning planning. Ensures you aren't stuck in "Run the Bank" (Ops) mode all week.
-*   **[Outlook] Daily Closure (`E2`)**: "Create end-of-day summary... Incident & Escalation Check."
-    *   *Use when:* Wrapping up. Ensures no P1 incidents or missed SLAs before you log off.
+*   **[Outlook] Daily Closure (`E2`)**: "Create end-of-day summary... Incident & Campaign Launch Check."
+    *   *Use when:* Wrapping up. Ensures incidents are handled and tomorrow's campaign launches are QA'd.
 
 ### 2. Manage Team (Direction & Optimization)
 *Align your reports and optimize resource allocation.*
@@ -46,8 +46,8 @@ These prompts use placeholders (e.g., `<PLACEHOLDER>`) to remain flexible. For y
     *   *Use when:* Setting the week's direction. Explicitly balances compliance mandates with commercial goals.
 *   **[OneNote] Meeting Agenda (`N3`)**: "Create meeting agenda... Risk & Compliance Moment."
     *   *Use when:* Setting the agenda. Ensures mandatory regulatory topics are never skipped.
-*   **[Teams] Analytics Team Pulse (`T1`)**: "Summarize team updates... Agile Velocity & Vendor Health."
-    *   *Use when:* Tracking Sprint Burndown, Blockers, and MarTech performance.
+*   **[Teams] Analytics Team Pulse (`T1`)**: "Summarize team updates... Agile & Experimentation Velocity."
+    *   *Use when:* Tracking Sprint Burndown, Experiment Win Rates, and MarTech performance.
 *   **[OneNote] Resource Optimization (`N4`)**: "Create team resource... Global Delivery & Contractor Risk."
     *   *Use when:* Managing Onshore/Offshore handovers, timezone coverage, and co-employment risk.
 *   **[OneNote] Performance Review (`N2`)**: "Weekly review... KRIs & Talent Pulse."
@@ -58,16 +58,16 @@ These prompts use placeholders (e.g., `<PLACEHOLDER>`) to remain flexible. For y
 
 *   **[OneNote] C-Suite Strategic Brief (`N6`)**: "Create one-page brief... Financials & Customer Trust."
     *   *Use when:* Preparing for leadership. Focuses on money, decisions, and UDAAP/Complaint signals.
-*   **[OneNote] ROI & Attribution (`N7`)**: "Generate comprehensive ROI analysis... Sensitivity & Lift."
-    *   *Use when:* Proving value and modeling "What if?" scenarios (e.g., Rate hikes).
+*   **[OneNote] ROI & Attribution (`N7`)**: "Generate comprehensive ROI analysis... MMM & Sensitivity."
+    *   *Use when:* Defending budget using Media Mix Modeling (MMM) and Experimentation Lift vs Last-Click.
 *   **[OneNote] Audit & Regulatory Readiness (`N5`)**: "Generate monthly audit & regulatory status report."
     *   *Use when:* Tracking MRAs, Audit findings, and SLA breaches to stay out of "Red" status.
 
 ### 4. Strategy & Creation (Roadmap & Content)
 *Deep work, planning, and content generation.*
 
-*   **[OneNote] Banking Strategy Roadmap (`N8`)**: "Develop strategy... Cloud FinOps & Ethical AI."
-    *   *Use when:* Planning the next year. Balancing Tech Debt, Compute Costs (FinOps), and Fair Lending risk.
+*   **[OneNote] Banking Strategy Roadmap (`N8`)**: "Develop strategy... First-Party Data & FinOps."
+    *   *Use when:* Planning for Cookie Deprecation, Identity Resolution, and Cloud Costs.
 *   **[System] Data to Presentation (`data_insights.md`)**: A specialized prompt to turn a raw spreadsheet into a slide outline.
     *   *Use when:* You have a CSV of campaign results and need a presentation outline immediately.
 *   **[System] Notes to Slides (`notes_to_slides.md`)**: A specialized prompt to turn your dictated brain dump into a 7-slide deck.

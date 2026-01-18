@@ -34,6 +34,11 @@ Table Format: Sender | Subject | My Action (Do/Delegate) | Proposed Owner"
 - Missed SLA warnings
 - Pipeline/Data failure notifications
 
+🚀 CAMPAIGN LAUNCH GO/NO-GO:
+- Launching Tomorrow: <CAMPAIGN_NAME>
+- QA Sign-off: <YES/NO>
+- Tracking/Tags Verified: <YES/NO>
+
 📋 COMPLETED TODAY:
 - Key emails sent/decisions made about <PRIMARY_FOCUS>
 - <DELIVERABLE_TYPE> deliverables completed
@@ -126,6 +131,11 @@ Table format: Request | Who | Deadline | Context/Urgency"
 Project | Velocity (vs Avg) | Blocked Stories | Sprint Burndown Status
 *Focus: Are we shipping code or just attending meetings?*
 
+🧪 EXPERIMENTATION VELOCITY:
+- Experiments Live: <COUNT>
+- Experiments Concluded this week: <COUNT>
+- Win Rate %: <PERCENTAGE>
+
 🛡️ DATA QUALITY & RISK:
 - Data Integrity issues (ETL/Pipeline)
 - Model Risk/Validation status
@@ -160,6 +170,10 @@ Project | Velocity (vs Avg) | Blocked Stories | Sprint Burndown Status
 - Current <METRIC_1>: X% (Confidence: High/Med/Low)
 - <METRIC_2>: $X
 - Data Limitations: Known gaps or caveats in this data
+
+🧠 DATA LITERACY CHECK:
+- Terms to Define: "Statistical Significance", "Incrementality", "Attribution Window"
+- Concept Check: "Does the audience understand Correlation != Causation here?"
 
 💡 TALKING POINTS:
 1. <INSIGHT_TYPE> insight with supporting data
@@ -391,12 +405,13 @@ Team Member | Utilization % | Key Skills | Flight Risk (Low/Med/High)
 ```
 "Generate comprehensive ROI analysis focusing on incrementality and lift:
 
-📈 ATTRIBUTION & LIFT ANALYSIS:
-Channel | Spend | Last-Click ROI | Incremental Lift % | CPA (Blended vs Marginal)
+📈 MMM & EXPERIMENTATION RESULTS:
+Channel | MMM Contribution % | Incremental Lift (Experiment) | CPA (Blended vs Marginal)
+*Insight: MMM vs Last-Click delta (Where are we over-crediting?)
 
 🏆 CAMPAIGN PERFORMANCE:
-1. <INITIATIVE_NAME>: <ROI> (attributed) vs <LIFT_METRIC> (experimental)
-2. <INITIATIVE_NAME>: <ROI> (attributed) vs <LIFT_METRIC> (experimental)
+1. <INITIATIVE_NAME>: <ROI> (attributed) vs <LIFT_METRIC> (experimental) - Conf Interval: <90/95>%
+2. <INITIATIVE_NAME>: <ROI> (attributed) vs <LIFT_METRIC> (experimental) - Conf Interval: <90/95>%
 *Key Insight: Which campaigns drove net-new customers?*
 
 💰 BUDGET OPTIMIZATION (Marginal Returns):
@@ -423,6 +438,11 @@ Channel | Spend | Last-Click ROI | Incremental Lift % | CPA (Blended vs Marginal
 - Upcoming Regulations (e.g., AI Act, Basel): Impact Assessment
 - Compliance Deadlines: <DATE>
 - Required Capability Upgrades: <LIST>
+
+🍪 FIRST-PARTY DATA STRATEGY:
+- Cookie Deprecation Risk: High/Med/Low
+- Identity Resolution Capabilty: <STATUS>
+- Value Exchange: How are we getting customers to log in?
 
 🎯 CAPABILITY GAP ANALYSIS:
 Current State | Target State | Priority | Effort Level
