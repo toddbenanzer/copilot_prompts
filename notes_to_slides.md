@@ -14,7 +14,7 @@ Your task is to create a 7-slide presentation based on this document. Follow the
    - Slide 7: Conclusion or key takeaways
 
 2. For each slide:
-   - Provide a clear and concise title (5-7 words)
+   - Provide a **Action Title** (The main insight as a full sentence, e.g., "Customer Churn Increased 5% Due to Rate Hikes" NOT "Churn Analysis").
    - Include 3-5 key bullet points
    - Focus on main ideas and avoid filler content
    - Use simple, slide-appropriate language (not full paragraphs)

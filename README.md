@@ -36,26 +36,26 @@ These prompts use placeholders (e.g., `<PLACEHOLDER>`) to remain flexible. For y
     *   *Use when:* You need to ensure no request from the C-Suite has slipped through the cracks.
 *   **[Calendar] Morning Briefing (`C1`)**: "Create my daily briefing... identify conflicts."
     *   *Use when:* Planning your day's energy and logistics.
-*   **[Outlook] Daily Closure (`E2`)**: "Create end-of-day summary... draft reminders."
-    *   *Use when:* Wrapping up to ensure a clean start tomorrow.
+*   **[Outlook] Daily Closure (`E2`)**: "Create end-of-day summary... Incident & Escalation Check."
+    *   *Use when:* Wrapping up. Ensures no P1 incidents or missed SLAs before you log off.
 
 ### 2. Manage Team (Direction & Optimization)
 *Align your reports and optimize resource allocation.*
 
 *   **[OneNote] Priority Matrix (`N1`)**: "Create weekly team priority matrix... Urgent vs Important."
     *   *Use when:* Setting the week's direction during your Monday team sync.
-*   **[Teams] Team Status Check (`T1`)**: "Summarize team updates... identify blockers."
-    *   *Use when:* You've been in meetings all day and need a quick pulse check on project execution.
-*   **[OneNote] Resource Optimization (`N4`)**: "Create team resource optimization analysis."
-    *   *Use when:* Balancing workload or arguing for headcount.
+*   **[OneNote] Meeting Agenda (`N3`)**: "Create meeting agenda... Risk & Compliance Moment."
+    *   *Use when:* Setting the agenda. Ensures mandatory regulatory topics are never skipped.
+*   **[OneNote] Resource Optimization (`N4`)**: "Create team resource optimization... Key Person Dependencies."
+    *   *Use when:* Identifying single points of failure (e.g., "Only Sarah knows the Churn model") and managing talent risk.
 
 ### 3. Manage Up (Visibility & Status)
 *Keep senior leadership informed and confident.*
 
 *   **[OneNote] Executive Brief (`N6`)**: "Create one-page executive summary... Headline Insights."
     *   *Use when:* Preparing for a monthly business review (MBR) or steering committee.
-*   **[OneNote] ROI Report (`N7`)**: "Generate comprehensive ROI analysis... Campaign Performance."
-    *   *Use when:* Defending your budget or highlighting marketing effectiveness.
+*   **[OneNote] ROI & Attribution (`N7`)**: "Generate comprehensive ROI analysis... Incrementality & Lift."
+    *   *Use when:* Proving the *net-new* value of marketing spend, not just last-click attribution.
 *   **[OneNote] Governance Review (`N5`)**: "Generate monthly data governance status report."
     *   *Use when:* Reporting on compliance, privacy, and data quality (crucial in Retail Banking).
 
