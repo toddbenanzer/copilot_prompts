@@ -17,16 +17,20 @@ Please follow these steps to create the presentation outline:
 1. Carefully read and analyze the document.
 2. Perform a detailed data analysis, wrapping your work inside <data_analysis> tags. Include the following steps:
    a. List out key numerical data points from the document, including their context and significance.
-   b. Identify key patterns, outliers, and trends in the numbers.
-   c. Highlight notable insights, such as significant increases, dips, or correlations.
-   d. Categorize these insights into 3-5 logical sections that could each become a slide (e.g., Sales Trends, Top Products, Regional Performance).
+   b. Identify key patterns specific to Retail Banking:
+      - **Seasonality:** Monthly/Quarterly spikes (e.g., tax season, holiday spend).
+      - **Customer Segmentation:** High Net Worth vs Mass Market behaviors.
+      - **Product Performance:** Trends in Mortgages, Credit Cards, Savings, vs Loans.
+      - **Channel Mix:** Digital (App/Web) vs Branch vs Call Center volume.
+   c. Highlight notable insights, such as significant increases (Growth), dips (Churn risk), or correlations (Cross-sell opportunities).
+   d. Categorize these insights into 3-5 logical sections that could each become a slide.
    e. For each section, brainstorm:
       - Multiple options for clear and concise slide titles
       - 5-7 key findings to be presented as bullet points (we'll narrow these down later)
       - Several suggestions for appropriate visual representations (e.g., bar chart, line graph, pie chart)
    f. Review your analysis to ensure:
       - All bullet points are accurate and based on the data provided
-      - The language used is plain and appropriate for executives at a large retail bank, avoiding jargon or overly technical terms
+      - The language used is plain and appropriate for C-Level Bank Executives (focus on P&L, Risk, and Growth).
 
    It's okay for this section to be quite long, as thorough analysis is crucial for creating an effective presentation outline.
 
