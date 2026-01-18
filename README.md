@@ -50,24 +50,24 @@ These prompts use placeholders (e.g., `<PLACEHOLDER>`) to remain flexible. For y
     *   *Use when:* Checking data pipelines, model risk, and critical MarTech vendor performance (e.g. Adobe/Salesforce).
 *   **[OneNote] Resource Optimization (`N4`)**: "Create team resource optimization... Contractor Risk."
     *   *Use when:* Managing co-employment risk and FTE vs Contractor ratios in addition to key dependencies.
-*   **[OneNote] Performance Review (`N2`)**: "Weekly review... Key Risk Indicators (KRIs)."
-    *   *Use when:* Reviewing team wins alongside Data Quality scores and Model Drift alerts.
+*   **[OneNote] Performance Review (`N2`)**: "Weekly review... KRIs & Talent Pulse."
+    *   *Use when:* Reviewing team wins, Model Drift, and recognizing top performers to prevent burnout.
 
 ### 3. Manage Up (Visibility & Status)
 *Keep senior leadership informed and confident.*
 
-*   **[OneNote] C-Suite Strategic Brief (`N6`)**: "Create one-page strategic brief... Financial Impact & Decisions."
-    *   *Use when:* Preparing for non-technical leadership. Focuses on money, market opportunity, and decisions required.
-*   **[OneNote] ROI & Attribution (`N7`)**: "Generate comprehensive ROI analysis... Incrementality & Lift."
-    *   *Use when:* Proving the *net-new* value of marketing spend, not just last-click attribution.
+*   **[OneNote] C-Suite Strategic Brief (`N6`)**: "Create one-page brief... Financials & Customer Trust."
+    *   *Use when:* Preparing for leadership. Focuses on money, decisions, and UDAAP/Complaint signals.
+*   **[OneNote] ROI & Attribution (`N7`)**: "Generate comprehensive ROI analysis... Sensitivity & Lift."
+    *   *Use when:* Proving value and modeling "What if?" scenarios (e.g., Rate hikes).
 *   **[OneNote] Audit & Regulatory Readiness (`N5`)**: "Generate monthly audit & regulatory status report."
     *   *Use when:* Tracking MRAs, Audit findings, and SLA breaches to stay out of "Red" status.
 
 ### 4. Strategy & Creation (Roadmap & Content)
 *Deep work, planning, and content generation.*
 
-*   **[OneNote] Banking Strategy Roadmap (`N8`)**: "Develop strategy... Buy vs Build & Regulatory Scan."
-    *   *Use when:* Planning the next year. Assessing Technical Debt and deciding between vendor solutions vs in-house builds.
+*   **[OneNote] Banking Strategy Roadmap (`N8`)**: "Develop strategy... Ethical AI & Regulatory Scan."
+    *   *Use when:* Planning the next year. Assessing Bias/Fair Lending risks alongside tech capabilities.
 *   **[System] Data to Presentation (`data_insights.md`)**: A specialized prompt to turn a raw spreadsheet into a slide outline.
     *   *Use when:* You have a CSV of campaign results and need a presentation outline immediately.
 *   **[System] Notes to Slides (`notes_to_slides.md`)**: A specialized prompt to turn your dictated brain dump into a 7-slide deck.
