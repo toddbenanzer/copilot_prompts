@@ -45,6 +45,26 @@ For each email, show: Sender | Subject | Response deadline"
 - Scheduled sends to review"
 ```
 
+**Prompt E3: Senior Leader Commitment Scan**
+```
+"Review emails from <EXECUTIVE_LEVEL> leadership from the last <TIME_PERIOD>:
+
+🔍 ACTIONABLE REQUESTS:
+- Direct asks/tasks assigned to me
+- Questions requiring my response
+- Data/Information requests
+
+📅 DEADLINES & MILESTONES:
+- Specific dates mentioned
+- Upcoming review meetings
+
+🚩 IMPLIED EXPECTATIONS:
+- 'Heads up' items requiring monitoring
+- Strategic priorities mentioned
+
+Table format: Request | Who | Deadline | Context/Urgency"
+```
+
 ---
 
 ## 📅 OUTLOOK CALENDAR PROMPTS
@@ -379,6 +399,7 @@ Team Member | Current Skills | Target Skills | Training Plan | Timeline
 |------|------|---------|---------|
 | 8:00 AM | Outlook Calendar | **C1: Executive Morning Briefing** | Daily planning and conflict resolution |
 | 8:15 AM | Outlook Email | **E1: Email Triage** | Prioritize inbox for the day |
+| 8:20 AM | Outlook Email | **E3: Commitment Scan** | Track executive requests and asks |
 | 8:25 AM | Teams | **T1: Team Status Check** | Catch up on overnight team activity |
 
 ### End of Day (5:30-6:00 PM)
