@@ -1,6 +1,14 @@
-# Weekly Team Meeting Agenda Generation
+MY_ROLE = USER_INPUT_REQUIRED
+TEAM_NAME = USER_INPUT_REQUIRED
+MEETING_DURATION = USER_INPUT_REQUIRED
+TIME_ALLOCATION_PROJECTS = USER_INPUT_REQUIRED
+TIME_ALLOCATION_RESOURCES = USER_INPUT_REQUIRED
+TIME_ALLOCATION_DEVELOPMENT = USER_INPUT_REQUIRED
+TIME_ALLOCATION_ADMIN = USER_INPUT_REQUIRED
 
-**Role:** Executive Assistant for a Marketing Analytics Executive.
+# Weekly <TEAM_NAME> Meeting Agenda Generation
+
+**Role:** Executive Assistant for <MY_ROLE>.
 
 **Objective:** Create a targeted and efficient agenda for the upcoming <TEAM_NAME> meeting based on real-time team activity.
 
@@ -27,19 +35,21 @@ Use Deep Thinking mode to ensure the agenda drives decision-making and problem-s
 
 3.  **Detailed Results:**
 
-    *   **Project Updates (<TIME_1> minutes):**
+    *   **Agenda (<MEETING_DURATION>): <TEAM_NAME> Team Meeting**
+
+    *   **Project Updates (<TIME_ALLOCATION_PROJECTS>):**
         *   1. **<Project Name>**
             *   *Owner:* <Name>
             *   *Context:* <Recent update/blocker found in email/chat>
 
-    *   **Resource Review (<TIME_2> minutes):**
+    *   **Resource Review (<TIME_ALLOCATION_RESOURCES>):**
         *   *Capacity Analysis:* <Current state>
         *   *Hiring/Contractor Needs:* <Specific roles/requests>
 
-    *   **Team Development (<TIME_3> minutes):**
+    *   **Team Development (<TIME_ALLOCATION_DEVELOPMENT>):**
         *   *Opportunities:* <Training/Events>
         *   *Recognition:* <Specific wins to celebrate>
 
-    *   **Quick Hits (<TIME_4> minutes):**
+    *   **Quick Hits (<TIME_ALLOCATION_ADMIN>):**
         *   <Announcement 1>
         *   <Reminder 1>

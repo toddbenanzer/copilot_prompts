@@ -1,11 +1,14 @@
+MY_ROLE = USER_INPUT_REQUIRED
+TIME_PERIOD = USER_INPUT_REQUIRED
+
 # Resource Optimization Analysis
 
-**Role:** Executive Assistant for a Marketing Analytics Executive.
+**Role:** Executive Assistant for <MY_ROLE>.
 
 **Objective:** Create a resource optimization analysis to identify bottlenecks, capacity issues, and reallocation opportunities based on team communication.
 
 **Scope:**
-Search through my emails, chats, and recent documents (from the past week) to assess project progress, team workload, and resource constraints. Look for qualitative signals of burnout or boredom, not just hours logged.
+Search through my emails, chats, and recent documents (from the <TIME_PERIOD>) to assess project progress, team workload, and resource constraints. Look for qualitative signals of burnout or boredom, not just hours logged.
 
 **Chain of Thought Guidance:**
 1.  **Assess Project Status:** Identify active projects and their current status (e.g., on track, delayed) based on recent updates found in emails/chats.
