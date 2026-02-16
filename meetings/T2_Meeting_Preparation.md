@@ -1,16 +1,6 @@
 MEETING_NAME = USER_INPUT_REQUIRED
 STAKEHOLDER_NAME = USER_INPUT_REQUIRED
-TOPIC_AREA = USER_INPUT_REQUIRED
-PROJECT_NAME = USER_INPUT_REQUIRED
 TIME_PERIOD = USER_INPUT_REQUIRED
-METRIC_1 = USER_INPUT_REQUIRED
-METRIC_2 = USER_INPUT_REQUIRED
-STATUS_METRIC = USER_INPUT_REQUIRED
-INSIGHT_TYPE = USER_INPUT_REQUIRED
-RECOMMENDATION_TYPE = USER_INPUT_REQUIRED
-REQUEST_TYPE = USER_INPUT_REQUIRED
-TOPIC_1 = USER_INPUT_REQUIRED
-TOPIC_2 = USER_INPUT_REQUIRED
 
 # EXECUTIVE MEETING PREPARATION PROMPT
 
@@ -18,15 +8,17 @@ TOPIC_2 = USER_INPUT_REQUIRED
 
 ## SEARCH INSTRUCTIONS
 Systematically search through my **Emails**, **Teams/Slack Chats**, and **Recent Documents** (Word, PDF, PowerPoint, Excel).
-- Look for key themes, unresolved issues, recent decisions, and action items related to <TOPIC_AREA> or <PROJECT_NAME>.
-- Prioritize information from the last <TIME_PERIOD>.
+1.  **Identify Topic:** Based on the <MEETING_NAME> and <STAKEHOLDER_NAME>, infer the primary topic or project associated with this meeting.
+2.  **Execute Search:** Look for key themes, unresolved issues, recent decisions, and action items related to the identified topic/project.
+3.  **Prioritize:** Focus on information from the last <TIME_PERIOD>.
 
 ## CHAIN OF THOUGHT GUIDANCE
 1.  **Analyze Context:** Identify the primary purpose of the meeting and the key stakeholders involved.
 2.  **Gather Information:** Scan communications and documents for recent updates, blockers, or changes in direction. Look for discrepancies between what was promised and what was delivered.
-3.  **Synthesize:** Connect dots between different sources (e.g., an email mention of a delay vs. a chat discussion about a workaround).
-4.  **Anticipate:** Based on the gathered info, predict potential questions or concerns the stakeholder might have.
-5.  **Structure:** Organize the findings into the requested format below.
+3.  **Identify Metrics:** Search for the most relevant quantitative data (KPIs, budget, timeline progress) associated with the inferred topic.
+4.  **Synthesize:** Connect dots between different sources (e.g., an email mention of a delay vs. a chat discussion about a workaround).
+5.  **Anticipate:** Based on the gathered info (especially blockers or risks), predict the top 2-3 questions the stakeholder is likely to ask.
+6.  **Structure:** Organize the findings into the requested format below.
 
 ## OUTPUT FORMAT
 
@@ -43,25 +35,27 @@ Systematically search through my **Emails**, **Teams/Slack Chats**, and **Recent
 ### 3. Detailed Results
 
 **Context & Background:**
-- Summary of previous meeting outcomes from <TIME_PERIOD>.
-- Key takeaways from recent chat discussions about <TOPIC_AREA>.
-- Highlights from shared documents/files related to <PROJECT_NAME>.
+- Summary of previous meeting outcomes regarding the inferred topic.
+- Key takeaways from recent chat discussions and shared documents.
 
 **Relevant Metrics:**
-- Current <METRIC_1>: X%
-- <METRIC_2>: $X
-- <STATUS_METRIC>: Green/Yellow/Red
+(Identify and list the top 3 critical metrics found in the search results, such as completion %, budget status, or performance KPIs.)
+- [Metric Name]: [Value]
+- [Metric Name]: [Value]
+- [Metric Name]: [Value]
 
 **Talking Points:**
-1. <INSIGHT_TYPE> insight with supporting data.
-2. <RECOMMENDATION_TYPE> recommendation.
-3. <REQUEST_TYPE> request/issue.
+(Generate 3 strategic talking points based on the findings.)
+1. **Insight:** [Key observation backed by data]
+2. **Recommendation:** [Proposed action or decision]
+3. **Request/Issue:** [Resource need or blocker removal]
 
 **Likely Questions & Answers:**
-- **Q:** Question about <TOPIC_1>?
-- **A:** Prepared answer based on data.
-- **Q:** Question about <TOPIC_2>?
-- **A:** Prepared answer based on data.
+(Predict 2 tough questions the stakeholder might ask and provide data-backed answers.)
+- **Q:** [Predicted Question 1]
+- **A:** [Prepared Answer]
+- **Q:** [Predicted Question 2]
+- **A:** [Prepared Answer]
 
 ---
 **IMPORTANT:** Use **Deep Thinking** mode to ensure thorough analysis and connection of disparate information points.

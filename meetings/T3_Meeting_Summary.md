@@ -1,11 +1,5 @@
 MEETING_NAME = USER_INPUT_REQUIRED
 DATE = USER_INPUT_REQUIRED
-AREA_1 = USER_INPUT_REQUIRED
-RESOURCE_TYPE = USER_INPUT_REQUIRED
-COMPLIANCE_TYPE = USER_INPUT_REQUIRED
-DOCUMENT_TYPE = USER_INPUT_REQUIRED
-TOPIC_AREA = USER_INPUT_REQUIRED
-QUESTION_TYPE = USER_INPUT_REQUIRED
 
 # EXECUTIVE MEETING SUMMARY PROMPT
 
@@ -39,22 +33,25 @@ QUESTION_TYPE = USER_INPUT_REQUIRED
 **EMAIL SUBJECT:** <MEETING_NAME> - Decisions & Actions - <DATE>
 
 **Key Decisions:**
-- <AREA_1> priority changes.
-- <RESOURCE_TYPE>/resource approvals.
-- <COMPLIANCE_TYPE> requirements.
+(List the top decisions made during the meeting, categorized by area or priority.)
+- [Decision 1]
+- [Decision 2]
+- [Decision 3]
 
 **Action Items:**
 | Task | Owner | Deadline | Dependencies | Success Criteria |
 | :--- | :--- | :--- | :--- | :--- |
-| [Task 1] | [Owner] | [Deadline] | [Deps] | [Criteria] |
+| [Task] | [Owner] | [Deadline] | [Dependencies] | [Criteria] |
 
 **Follow-Up Required:**
-- Next meeting: Date/Time.
-- Preparation needed: <DOCUMENT_TYPE>/Analysis.
+(Identify any required follow-ups, such as the next meeting or preparation needed.)
+- Next meeting: [Date/Time/TBD]
+- Preparation needed: [Documents/Analysis]
 
 **Parking Lot:**
-- Items for future discussion about <TOPIC_AREA>.
-- Unresolved <QUESTION_TYPE> questions.
+(List any topics that were tabled for future discussion or questions that remained unresolved.)
+- [Topic 1]
+- [Unresolved Question]
 
 ---
 **IMPORTANT:** Use **Deep Thinking** mode to ensure accuracy in capturing decisions and action items.
