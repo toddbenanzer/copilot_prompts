@@ -73,7 +73,11 @@ These prompts use placeholders (e.g., `<PLACEHOLDER>`) to remain flexible. For y
 
 ## 📚 Resources & Files
 
-*   **[`copilot_prompts.md`](./copilot_prompts.md)**: The master list of all prompt text and the "Implementation Calendar" (Daily/Weekly routines).
-*   **[`data_insights.md`](./data_insights.md)**: Advanced template for data analysis.
-*   **[`notes_to_slides.md`](./notes_to_slides.md)**: Advanced template for creating presentations from voice notes.
+*   **[Daily Prompts](./daily/)**: Prompts for daily executive routines.
+*   **[Weekly Prompts](./weekly/)**: Prompts for weekly planning and review.
+*   **[Monthly Prompts](./monthly/)**: Prompts for monthly governance and reporting.
+*   **[Quarterly Prompts](./quarterly/)**: Prompts for strategic planning.
+*   **[Meeting Prompts](./meetings/)**: Prompts for meeting preparation and summaries.
+*   **[On-Demand Prompts](./on-demand/)**: Specialized prompts for data analysis and presentations.
 *   **[`gtd_guide.md`](./gtd_guide.md)**: A deep dive into the "Getting Things Done" methodology that powers these workflows. Read this to understand the *theory* of systematic productivity.
+*   **[Processed Archives](./processed/)**: Original prompt files.
