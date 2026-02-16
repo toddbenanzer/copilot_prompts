@@ -1,3 +1,12 @@
+BUSINESS_FUNCTION = USER_INPUT_REQUIRED
+CHANNEL_TYPE = USER_INPUT_REQUIRED
+COST_METRIC = USER_INPUT_REQUIRED
+VALUE_METRIC = USER_INPUT_REQUIRED
+INITIATIVE_TYPE = USER_INPUT_REQUIRED
+COMPLIANCE_AREA_1 = USER_INPUT_REQUIRED
+COMPLIANCE_AREA_2 = USER_INPUT_REQUIRED
+MONITORING_TYPE = USER_INPUT_REQUIRED
+
 Deep Thinking: Activate
 
 Generate a comprehensive <BUSINESS_FUNCTION> ROI analysis by searching through my emails, chats, and recent documents for <BUSINESS_FUNCTION> performance data, budget discussions, campaign results, and compliance assessments.

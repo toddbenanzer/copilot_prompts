@@ -1,3 +1,12 @@
+GOVERNANCE_TYPE = USER_INPUT_REQUIRED
+QUALITY_METRIC = USER_INPUT_REQUIRED
+TARGET = USER_INPUT_REQUIRED
+VALIDATION_TYPE = USER_INPUT_REQUIRED
+AUDIT_TYPE = USER_INPUT_REQUIRED
+PRIVACY_TYPE = USER_INPUT_REQUIRED
+REGULATORY_TYPE = USER_INPUT_REQUIRED
+BUSINESS_AREA = USER_INPUT_REQUIRED
+
 Deep Thinking: Activate
 
 Generate a monthly <GOVERNANCE_TYPE> governance status report by searching through my emails, chats, and recent documents for keywords related to <GOVERNANCE_TYPE>, compliance reports, audit findings, and data quality metrics.
