@@ -1,3 +1,5 @@
+TIME_PERIOD = USER_INPUT_REQUIRED
+
 Act as my Chief of Staff. Analyze my calendar for today, emails, chats, and recent documents from the last <TIME_PERIOD>.
 
 <DEEP_THINKING>
@@ -19,18 +21,18 @@ OUTPUT FORMAT:
 DETAILED RESULTS:
 
 DAILY BRIEFING:
-- **First Focus:** Upcoming meetings with prep requirements for <FOCUS_AREA>.
+- **First Focus:** Upcoming meetings with prep requirements for Critical Focus Areas.
 - **Conflicts:** Any double bookings or travel issues?
-- **Buffer:** When are my open blocks for <WORK_TYPE>?
+- **Buffer:** When are my open blocks for Deep Work?
 
 URGENT TRIAGE (Action Today):
-- <REGULATORY_TYPE>/compliance emails
-- <EXECUTIVE_LEVEL> requests
-- <CRITICAL_SYSTEM>/data issues
+- Regulatory/compliance emails
+- Executive requests
+- Critical Systems/data issues
 
 PRIORITY QUEUE (Review Later):
-- <PRIMARY_METRIC> performance questions
-- <STAKEHOLDER_TYPE> data requests
+- Key Metrics performance questions
+- Key Stakeholders data requests
 - Team escalations
 
 For each urgent email: Sender | Subject | Proposed Action
