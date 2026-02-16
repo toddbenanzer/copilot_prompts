@@ -1,5 +1,4 @@
 DOCUMENT_CONTENT = [PASTE DOCUMENT CONTENT HERE]
-NUMBER_OF_BULLETS = [ENTER NUMBER OF BULLETS PER SLIDE]
 
 You are an expert data analyst and presentation specialist tasked with creating a clear presentation outline based on a spreadsheet or table-heavy document. Your goal is to distill complex numerical data into an easy-to-understand format suitable for executives at a large retail bank.
 
@@ -8,12 +7,6 @@ Here is the document you need to analyze:
 <document>
 <DOCUMENT_CONTENT>
 </document>
-
-The number of bullet points requested per section is:
-
-<number_of_bullets>
-<NUMBER_OF_BULLETS>
-</number_of_bullets>
 
 Please follow these steps to create the presentation outline:
 
@@ -25,7 +18,7 @@ Please follow these steps to create the presentation outline:
    - Engage in a deep, step-by-step reasoning process. Do not rush to conclusions.
    - Think about the "why" behind the numbers. Consider potential root causes for trends and anomalies.
    - Evaluate the quality and limitations of the data.
-   - Consider alternative interpretations before settling on your key insights.
+   - Determine the optimal number of bullet points per slide (typically 3-5) based on the density and importance of the insights.
 
 3. **Data Analysis & Insight Generation**:
    - Perform a detailed data analysis, wrapping your work inside <data_analysis> tags. Include the following steps:
@@ -39,7 +32,7 @@ Please follow these steps to create the presentation outline:
      d. Categorize these insights into 3-5 logical sections that could each become a slide.
      e. For each section, brainstorm:
         - Multiple options for clear and concise slide titles
-        - 5-7 key findings to be presented as bullet points (we'll narrow these down later)
+        - Key findings to be presented as bullet points.
         - Several suggestions for appropriate visual representations (e.g., bar chart, line graph, pie chart)
      f. Review your analysis to ensure:
         - All bullet points are accurate and based on the data provided
@@ -68,7 +61,7 @@ Please follow these steps to create the presentation outline:
    • [Bullet point 1]
    • [Bullet point 2]
    • [Bullet point 3]
-   [Add more bullet points if required by <NUMBER_OF_BULLETS>]
+   [Add more bullet points if necessary]
    Suggested Visual: [Type of chart or graph]
 
    Section 2: [Section Title]
@@ -76,10 +69,10 @@ Please follow these steps to create the presentation outline:
    • [Bullet point 1]
    • [Bullet point 2]
    • [Bullet point 3]
-   [Add more bullet points if required by <NUMBER_OF_BULLETS>]
+   [Add more bullet points if necessary]
    Suggested Visual: [Type of chart or graph]
 
    [Repeat for all sections]
    </presentation_outline>
 
-Remember to use plain, slide-friendly language throughout the outline. Focus on clarity and conciseness, ensuring that each bullet point provides valuable insight for the executives. Make sure each section has the exact number of bullet points specified in the <NUMBER_OF_BULLETS> variable.
+Remember to use plain, slide-friendly language throughout the outline. Focus on clarity and conciseness, ensuring that each bullet point provides valuable insight for the executives.
