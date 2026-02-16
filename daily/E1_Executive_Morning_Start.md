@@ -1,11 +1,4 @@
 TIME_PERIOD = USER_INPUT_REQUIRED
-FOCUS_AREA = USER_INPUT_REQUIRED
-WORK_TYPE = USER_INPUT_REQUIRED
-REGULATORY_TYPE = USER_INPUT_REQUIRED
-EXECUTIVE_LEVEL = USER_INPUT_REQUIRED
-CRITICAL_SYSTEM = USER_INPUT_REQUIRED
-PRIMARY_METRIC = USER_INPUT_REQUIRED
-STAKEHOLDER_TYPE = USER_INPUT_REQUIRED
 
 Act as my Chief of Staff. Analyze my calendar for today, emails, chats, and recent documents from the last <TIME_PERIOD>.
 
@@ -28,18 +21,18 @@ OUTPUT FORMAT:
 DETAILED RESULTS:
 
 DAILY BRIEFING:
-- **First Focus:** Upcoming meetings with prep requirements for <FOCUS_AREA>.
+- **First Focus:** Upcoming meetings with significant preparation requirements or high strategic importance.
 - **Conflicts:** Any double bookings or travel issues?
-- **Buffer:** When are my open blocks for <WORK_TYPE>?
+- **Buffer:** When are my open blocks for deep work or strategic thinking?
 
 URGENT TRIAGE (Action Today):
-- <REGULATORY_TYPE>/compliance emails
-- <EXECUTIVE_LEVEL> requests
-- <CRITICAL_SYSTEM>/data issues
+- Regulatory/Compliance emails
+- Executive Leadership requests
+- Critical System/Data issues
 
 PRIORITY QUEUE (Review Later):
-- <PRIMARY_METRIC> performance questions
-- <STAKEHOLDER_TYPE> data requests
+- Performance/Metric questions
+- Stakeholder data requests
 - Team escalations
 
 For each urgent email: Sender | Subject | Proposed Action

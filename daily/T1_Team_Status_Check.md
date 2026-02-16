@@ -1,6 +1,5 @@
 TEAM_NAME = USER_INPUT_REQUIRED
 TIME_PERIOD = USER_INPUT_REQUIRED
-STAKEHOLDER_TYPE = USER_INPUT_REQUIRED
 
 Summarize <TEAM_NAME> team updates from past <TIME_PERIOD> across all channels (emails, chats, documents).
 
@@ -32,7 +31,7 @@ DATA QUALITY & RISK:
 
 BLOCKERS:
 - Technical constraints (Cloud/Compute)
-- Missing requirements from <STAKEHOLDER_TYPE>
+- Missing requirements from key stakeholders
 - Resource bottlenecks
 
 DECISIONS NEEDED:

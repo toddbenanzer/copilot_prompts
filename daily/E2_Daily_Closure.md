@@ -1,10 +1,3 @@
-PRIMARY_FOCUS = USER_INPUT_REQUIRED
-DELIVERABLE_TYPE = USER_INPUT_REQUIRED
-ISSUE_TYPE = USER_INPUT_REQUIRED
-PROJECT_CATEGORY = USER_INPUT_REQUIRED
-REPORT_TYPE = USER_INPUT_REQUIRED
-TOPIC_AREA = USER_INPUT_REQUIRED
-
 Create my end-of-day summary based on emails, chats, and recent documents from today.
 
 <DEEP_THINKING>
@@ -25,15 +18,15 @@ OUTPUT FORMAT:
 DETAILED RESULTS:
 
 COMPLETED TODAY:
-- Key emails/chats sent and decisions made about <PRIMARY_FOCUS>
-- <DELIVERABLE_TYPE> deliverables completed (based on docs/communications)
-- <ISSUE_TYPE> issues resolved
+- Key emails/chats sent and critical decisions made
+- Major deliverables completed (based on docs/communications)
+- Significant issues resolved
 
 TOMORROW'S PRIORITIES:
-- <NUMBER> emails/chats requiring responses
-- Follow-ups needed for <PROJECT_CATEGORY>
-- <REPORT_TYPE> reports to send
+- Outstanding emails/chats requiring responses
+- Important follow-ups for active projects
+- Pending reports to send
 
 DRAFT REMINDERS:
-- Incomplete drafts about <TOPIC_AREA> to finish
+- Incomplete drafts to finish
 - Scheduled sends to review
