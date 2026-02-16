@@ -1,10 +1,6 @@
 MY_ROLE = USER_INPUT_REQUIRED
 TEAM_NAME = USER_INPUT_REQUIRED
 MEETING_DURATION = USER_INPUT_REQUIRED
-TIME_ALLOCATION_PROJECTS = USER_INPUT_REQUIRED
-TIME_ALLOCATION_RESOURCES = USER_INPUT_REQUIRED
-TIME_ALLOCATION_DEVELOPMENT = USER_INPUT_REQUIRED
-TIME_ALLOCATION_ADMIN = USER_INPUT_REQUIRED
 
 # Weekly <TEAM_NAME> Meeting Agenda Generation
 
@@ -20,7 +16,7 @@ Search through my emails, chats, and recent documents (from the past week) to id
 2.  **Identify Resource Needs:** Check for hiring requests, capacity constraints, or skill gaps mentioned in communications (e.g., "overwhelmed," "need help").
 3.  **Find Development Opportunities:** Look for upcoming training, webinars, or articles shared that would be relevant for "Team Development."
 4.  **Gather "Quick Hits":** Collect administrative announcements, reminders, or logistical updates.
-5.  **Draft Agenda:** Structure the agenda with clear time allocations based on the importance of each topic.
+5.  **Draft Agenda:** Structure the agenda to fit within the <MEETING_DURATION>, proposing specific time allocations for each section based on the volume and importance of the topics found.
 
 **Deep Thinking:**
 Use Deep Thinking mode to ensure the agenda drives decision-making and problem-solving, rather than just status reporting.
@@ -37,19 +33,19 @@ Use Deep Thinking mode to ensure the agenda drives decision-making and problem-s
 
     *   **Agenda (<MEETING_DURATION>): <TEAM_NAME> Team Meeting**
 
-    *   **Project Updates (<TIME_ALLOCATION_PROJECTS>):**
+    *   **Project Updates (<Proposed Time>):**
         *   1. **<Project Name>**
             *   *Owner:* <Name>
             *   *Context:* <Recent update/blocker found in email/chat>
 
-    *   **Resource Review (<TIME_ALLOCATION_RESOURCES>):**
+    *   **Resource Review (<Proposed Time>):**
         *   *Capacity Analysis:* <Current state>
         *   *Hiring/Contractor Needs:* <Specific roles/requests>
 
-    *   **Team Development (<TIME_ALLOCATION_DEVELOPMENT>):**
+    *   **Team Development (<Proposed Time>):**
         *   *Opportunities:* <Training/Events>
         *   *Recognition:* <Specific wins to celebrate>
 
-    *   **Quick Hits (<TIME_ALLOCATION_ADMIN>):**
+    *   **Quick Hits (<Proposed Time>):**
         *   <Announcement 1>
         *   <Reminder 1>

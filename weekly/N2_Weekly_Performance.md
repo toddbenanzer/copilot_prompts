@@ -1,6 +1,4 @@
 MY_ROLE = USER_INPUT_REQUIRED
-TIME_PERIOD = USER_INPUT_REQUIRED
-STAKEHOLDER_LIST = USER_INPUT_REQUIRED
 
 # Weekly Performance Assessment
 
@@ -9,12 +7,12 @@ STAKEHOLDER_LIST = USER_INPUT_REQUIRED
 **Objective:** Create a comprehensive weekly leadership review, highlighting wins, challenges, and stakeholder sentiment based on recent communications.
 
 **Scope:**
-Search through my emails, chats, and recent documents (from the <TIME_PERIOD>) to find evidence of accomplishments, positive feedback, or project milestones, as well as issues or blockers. Don't just list tasks; look for impact.
+Search through my emails, chats, and recent documents (from the past week) to find evidence of accomplishments, positive feedback, or project milestones, as well as issues or blockers. Don't just list tasks; look for impact.
 
 **Chain of Thought Guidance:**
 1.  **Gather Wins:** Scan for keywords like "congratulations," "great job," "approved," "launched," or "delivered" to identify key accomplishments. Quantify them where possible (e.g., ROI, time saved).
 2.  **Identify Challenges:** Look for terms like "delayed," "blocked," "issue," "risk," or "error" to pinpoint challenges. Analyze the context to determine the root cause and proposed solution.
-3.  **Analyze Stakeholder Sentiment:** Review communications with key stakeholders (e.g., <STAKEHOLDER_LIST>) to gauge their satisfaction and engagement levels.
+3.  **Analyze Stakeholder Sentiment:** Review communications with key stakeholders (e.g., senior leadership, cross-functional partners) to gauge their satisfaction and engagement levels.
 4.  **Forecast Focus:** Based on current momentum and upcoming deadlines found in documents, propose the strategic focus for next week.
 
 **Deep Thinking:**
@@ -43,8 +41,8 @@ Use Deep Thinking mode to connect tactical wins to strategic goals and identify 
             *   *Timeline:* <Expected Resolution>
 
     *   **Stakeholder Pulse:**
-        *   *<STAKEHOLDER_LIST Item>:* <Sentiment/Feedback based on recent interactions>
-        *   *<STAKEHOLDER_LIST Item>:* <Sentiment/Feedback based on recent interactions>
+        *   *<Stakeholder Name>:* <Sentiment/Feedback based on recent interactions>
+        *   *<Stakeholder Name>:* <Sentiment/Feedback based on recent interactions>
 
     *   **Next Week's Strategic Focus:**
         *   1. **<Initiative Name>**
