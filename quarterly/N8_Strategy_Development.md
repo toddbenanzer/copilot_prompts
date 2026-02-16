@@ -1,4 +1,16 @@
-"Develop <TIME_PERIOD> <TECHNOLOGY_TYPE> strategy roadmap:
+Act as a strategic advisor. Deeply analyze my recent emails, chats, and documents from the past quarter to develop a <TIME_PERIOD> <TECHNOLOGY_TYPE> strategy roadmap.
+
+**Chain of Thought Guidance:**
+1.  **Analyze Context:** Review all communications and documents to identify key themes, recurring challenges, and strategic discussions related to <TECHNOLOGY_TYPE>.
+2.  **Identify Gaps:** Compare current capabilities against the strategic goals mentioned or implied in the source materials.
+3.  **Synthesize Plan:** Develop a phased roadmap that addresses these gaps and aligns with the identified priorities.
+4.  **Evaluate Risks:** Assess potential risks and required investments based on the context.
+
+**Output Structure:**
+
+1.  **Executive Overview:** A 1-2 sentence high-level summary of the proposed strategy.
+2.  **Summary Table:** A table highlighting the key initiatives, priority, and estimated impact.
+3.  **Detailed Results:**
 
 CAPABILITY GAP ANALYSIS:
 Current State | Target State | Priority | Effort Level
@@ -17,4 +29,6 @@ SUCCESS METRICS BY PHASE:
 BUSINESS CASE:
 - Investment Required: Total cost breakdown
 - Expected Benefits: Quantified <BENEFIT_TYPE>
-- Risk Assessment: Likelihood and impact"
+- Risk Assessment: Likelihood and impact
+
+**Note:** Use Deep Thinking mode to ensure a comprehensive and nuanced analysis of all source materials.
