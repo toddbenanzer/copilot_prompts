@@ -1,34 +1,41 @@
-Act as a strategic advisor. Deeply analyze my recent emails, chats, and documents from the past quarter to develop a <TIME_PERIOD> <TECHNOLOGY_TYPE> strategy roadmap.
+STRATEGY_TOPIC = USER_INPUT_REQUIRED
+PLANNING_PERIOD = USER_INPUT_REQUIRED
 
-**Chain of Thought Guidance:**
-1.  **Analyze Context:** Review all communications and documents to identify key themes, recurring challenges, and strategic discussions related to <TECHNOLOGY_TYPE>.
+
+Act as a strategic advisor. Deeply analyze my recent emails, chats, and documents from the past quarter to develop a <PLANNING_PERIOD> strategy roadmap for <STRATEGY_TOPIC>.
+
+<DEEP_THINKING>
+Please use Deep Thinking mode.
+
+CHAIN OF THOUGHT GUIDANCE:
+1.  **Analyze Context:** Review all communications and documents to identify key themes, recurring challenges, and strategic discussions related to <STRATEGY_TOPIC>.
 2.  **Identify Gaps:** Compare current capabilities against the strategic goals mentioned or implied in the source materials.
 3.  **Synthesize Plan:** Develop a phased roadmap that addresses these gaps and aligns with the identified priorities.
 4.  **Evaluate Risks:** Assess potential risks and required investments based on the context.
+</DEEP_THINKING>
 
-**Output Structure:**
-
-1.  **Executive Overview:** A 1-2 sentence high-level summary of the proposed strategy.
+OUTPUT FORMAT:
+1.  **Executive Overview:** 1-2 sentences summarizing the proposed strategy.
 2.  **Summary Table:** A table highlighting the key initiatives, priority, and estimated impact.
-3.  **Detailed Results:**
+3.  **Detailed Results:** The comprehensive breakdown of the strategy as structured below.
+
+DETAILED RESULTS:
 
 CAPABILITY GAP ANALYSIS:
 Current State | Target State | Priority | Effort Level
 
 TECHNOLOGY ROADMAP:
-Phase 1 (<TIMEFRAME_1>): <INFRASTRUCTURE_TYPE> needs
-Phase 2 (<TIMEFRAME_2>): <IMPLEMENTATION_TYPE> implementation
-Phase 3 (<TIMEFRAME_3>): <CAPABILITY_TYPE> capabilities
+Phase 1: [Focus Area]
+Phase 2: [Focus Area]
+Phase 3: [Focus Area]
 
 TEAM DEVELOPMENT PLAN:
 Team Member | Current Skills | Target Skills | Training Plan | Timeline
 
 SUCCESS METRICS BY PHASE:
-<MILESTONE_1>: <Target> | Success Criteria | Risk Mitigation
+Milestone | Target | Success Criteria | Risk Mitigation
 
 BUSINESS CASE:
 - Investment Required: Total cost breakdown
-- Expected Benefits: Quantified <BENEFIT_TYPE>
+- Expected Benefits: Quantified benefits (Revenue, Cost Savings, Efficiency)
 - Risk Assessment: Likelihood and impact
-
-**Note:** Use Deep Thinking mode to ensure a comprehensive and nuanced analysis of all source materials.
