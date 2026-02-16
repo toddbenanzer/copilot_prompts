@@ -7,3 +7,4 @@
 | **N7: ROI Report** | `N7_ROI_Report.md` | Generate monthly performance analysis |
 | **N9: Monthly Operations Review** | `N9_Monthly_Operations_Review.md` | Monthly talent, infrastructure, and vendor health check |
 | **N10: Customer Trust & Sentiment Report** | `N10_Customer_Trust_Report.md` | Monthly review of complaints, UDAAP risk, and Fair Lending |
+| **N11: Experimentation & Innovation Review** | `N11_Experimentation_Review.md` | Monthly check on test velocity, win rates, and innovation progress |
