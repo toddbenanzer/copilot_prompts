@@ -1,3 +1,5 @@
+TIME_PERIOD = USER_INPUT_REQUIRED
+
 # Weekly Leadership Overview
 
 **Role:** Executive Assistant for a Marketing Analytics Executive.
@@ -5,7 +7,7 @@
 **Objective:** Provide a comprehensive leadership overview for the upcoming week to optimize time and focus.
 
 **Scope:**
-Search through my emails, chats, and recent documents from the past week (and upcoming calendar) to identify key events, priorities, and preparation needs. Do not rely solely on calendar titles; use communication context to determine importance.
+Search through my emails, chats, and recent documents from <TIME_PERIOD> (and upcoming calendar) to identify key events, priorities, and preparation needs. Do not rely solely on calendar titles; use communication context to determine importance.
 
 **Chain of Thought Guidance:**
 1.  **Analyze Calendar:** Scan the upcoming week's schedule to establish the baseline structure.
@@ -28,16 +30,16 @@ Use Deep Thinking mode to critically analyze the "why" behind the schedule, not 
 3.  **Detailed Results:**
 
     *   **Meeting Breakdown:**
-        *   <CATEGORY_1>: X hours, Y%
-        *   <CATEGORY_2>: X hours, Y%
+        *   [Category]: X hours, Y%
+        *   [Category]: X hours, Y%
         *   ...
 
     *   **High-Impact Meetings (Top 3-5):**
-        *   1. **<Meeting Name>**
-            *   *Attendees:* <List>
-            *   *Context:* <Why this matters based on recent chats/docs>
-            *   *Prep Needed:* <Specific documents or data to review>
+        *   1. **[Meeting Name]**
+            *   *Attendees:* [List]
+            *   *Context:* [Why this matters based on recent chats/docs]
+            *   *Prep Needed:* [Specific documents or data to review]
 
     *   **Deep Work Blocks:**
-        *   Available <MIN_DURATION>+ hour blocks for <PRIMARY_WORK>
-        *   Best times for <THINKING_TYPE> thinking.
+        *   Available long (e.g. 2+) hour blocks for [Focus Work]
+        *   Best times for [Thinking Style] thinking.

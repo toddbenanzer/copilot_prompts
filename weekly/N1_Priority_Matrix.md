@@ -1,3 +1,5 @@
+TIME_PERIOD = USER_INPUT_REQUIRED
+
 # Weekly Team Priority Matrix
 
 **Role:** Executive Assistant for a Marketing Analytics Executive.
@@ -5,7 +7,7 @@
 **Objective:** Create a weekly team priority matrix distinguishing Regulatory requirements from Commercial growth based on recent communications.
 
 **Scope:**
-Search through my emails, chats, and recent documents (from the past 1-2 weeks) to identify incoming requests, compliance mandates, and strategic initiatives. Do not rely solely on project management tools; use communication signals for real-time priority shifts.
+Search through my emails, chats, and recent documents (from <TIME_PERIOD>) to identify incoming requests, compliance mandates, and strategic initiatives. Do not rely solely on project management tools; use communication signals for real-time priority shifts.
 
 **Chain of Thought Guidance:**
 1.  **Scan for Regulatory Keywords:** specific search for "audit," "risk," "compliance," "fair lending," "UDAAP," or "governance" to flag "Must Do" items.
@@ -29,18 +31,18 @@ Use Deep Thinking mode to ensure no critical regulatory deadline is missed and t
 
     *   **Regulatory & Compliance (MUST DO):**
         *   *Goal: 100% Accuracy & Timeliness*
-        *   1. **<Task Name>**
-            *   *Context:* <Source email/doc>
-            *   *SLA:* <Date>
-            *   *Action:* <Next step>
+        *   1. **[Task Name]**
+            *   *Context:* [Source email/doc]
+            *   *SLA:* [Date]
+            *   *Action:* [Next step]
 
     *   **Commercial & Growth (STRATEGIC):**
         *   *Goal: Maximum Business Impact*
-        *   1. **<Task Name>**
-            *   *Context:* <Source email/doc>
-            *   *Impact:* <Projected ROI or benefit>
+        *   1. **[Task Name]**
+            *   *Context:* [Source email/doc]
+            *   *Impact:* [Projected ROI or benefit]
 
     *   **Operational & Maintenance:**
         *   *Goal: Stability & Efficiency*
-        *   1. **<Task Name>**
-            *   *Context:* <Reason for task>
+        *   1. **[Task Name]**
+            *   *Context:* [Reason for task]
