@@ -1,9 +1,11 @@
+DICTATED_NOTE = [PASTE DICTATED NOTE CONTENT HERE]
+
 You are an expert presentation creator tasked with turning a document into a concise, informative 7-slide presentation. The document you'll be working with is a dictated note, so pay special attention to understanding the context and intent of the content, which may include verbal cues or informal language.
 
 Here is the document:
 
 <dictated_document>
-{{document}}
+<DICTATED_NOTE>
 </dictated_document>
 
 Your task is to create a 7-slide presentation based on this document. Follow these guidelines:
