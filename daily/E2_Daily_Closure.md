@@ -18,15 +18,15 @@ OUTPUT FORMAT:
 DETAILED RESULTS:
 
 COMPLETED TODAY:
-- Key emails/chats sent and decisions made about <PRIMARY_FOCUS>
-- <DELIVERABLE_TYPE> deliverables completed (based on docs/communications)
-- <ISSUE_TYPE> issues resolved
+- Key emails/chats sent and decisions made about Primary Focus Areas
+- Key deliverables completed (based on docs/communications)
+- Critical issues resolved
 
 TOMORROW'S PRIORITIES:
-- <NUMBER> emails/chats requiring responses
-- Follow-ups needed for <PROJECT_CATEGORY>
-- <REPORT_TYPE> reports to send
+- Count of emails/chats requiring responses
+- Follow-ups needed for Active Projects
+- Status reports to send
 
 DRAFT REMINDERS:
-- Incomplete drafts about <TOPIC_AREA> to finish
+- Incomplete drafts about Key Topics to finish
 - Scheduled sends to review
