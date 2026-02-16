@@ -1,3 +1,6 @@
+EXECUTIVE_LEVEL = USER_INPUT_REQUIRED
+TIME_PERIOD = USER_INPUT_REQUIRED
+
 Review emails, chats, and documents from <EXECUTIVE_LEVEL> leadership from the last <TIME_PERIOD>.
 
 <DEEP_THINKING>
