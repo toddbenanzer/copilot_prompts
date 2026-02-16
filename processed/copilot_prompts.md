@@ -6,21 +6,23 @@
 
 **Prompt E1: Executive Morning Start (Calendar + Email)**
 ```
+TIME_PERIOD = USER_INPUT_REQUIRED
+
 "Act as my Chief of Staff. Analyze my calendar for today and emails from the last <TIME_PERIOD>.
 
 ⏰ DAILY BRIEFING:
-- **First Focus:** Upcoming meetings with prep requirements for <FOCUS_AREA>.
+- **First Focus:** Upcoming meetings with prep requirements.
 - **Conflicts:** Any double bookings or travel issues?
-- **Buffer:** When are my open blocks for <WORK_TYPE>?
+- **Buffer:** When are my open blocks?
 
 🔴 URGENT TRIAGE (Action Today):
-- <REGULATORY_TYPE>/compliance emails
-- <EXECUTIVE_LEVEL> requests  
-- <CRITICAL_SYSTEM>/data issues
+- Regulatory/compliance emails
+- Executive requests
+- Critical system/data issues
 
 🟡 PRIORITY QUEUE (Review Later):
-- <PRIMARY_METRIC> performance questions
-- <STAKEHOLDER_TYPE> data requests
+- Key performance questions
+- Stakeholder data requests
 - Team escalations
 
 For each urgent email: Sender | Subject | Proposed Action"
@@ -31,23 +33,26 @@ For each urgent email: Sender | Subject | Proposed Action"
 "Create my end-of-day email summary:
 
 📋 COMPLETED TODAY:
-- Key emails sent/decisions made about <PRIMARY_FOCUS>
-- <DELIVERABLE_TYPE> deliverables completed
-- <ISSUE_TYPE> issues resolved
+- Key emails sent/decisions made
+- Deliverables completed
+- Issues resolved
 
 ⏰ TOMORROW'S EMAIL PRIORITIES:
-- <NUMBER> emails requiring responses
-- Follow-ups needed for <PROJECT_CATEGORY>
-- <REPORT_TYPE> reports to send
+- Emails requiring responses
+- Follow-ups needed
+- Reports to send
 
 📧 DRAFT REMINDERS:
-- Incomplete drafts about <TOPIC_AREA> to finish
+- Incomplete drafts to finish
 - Scheduled sends to review"
 ```
 
 **Prompt E3: Senior Leader Commitment Scan**
 ```
-"Review emails from <EXECUTIVE_LEVEL> leadership from the last <TIME_PERIOD>:
+LEADERSHIP_LEVEL = USER_INPUT_REQUIRED
+TIME_PERIOD = USER_INPUT_REQUIRED
+
+"Review emails from <LEADERSHIP_LEVEL> leadership from the last <TIME_PERIOD>:
 
 🔍 ACTIONABLE REQUESTS:
 - Direct asks/tasks assigned to me
@@ -73,25 +78,20 @@ Table format: Request | Who | Deadline | Context/Urgency"
 
 *(Note: Daily briefing is now combined with Email Triage in Prompt E1)*
 
-**Prompt C2: Weekly <ROLE_TYPE> Leadership Overview**
+**Prompt C2: Weekly Leadership Overview**
 ```
 "Analyze my upcoming week's calendar:
 
 📊 MEETING BREAKDOWN:
-- <CATEGORY_1>: X hours, Y%
-- <CATEGORY_2>: X hours, Y% 
-- <CATEGORY_3>: X hours, Y%
-- <CATEGORY_4>: X hours, Y%
-- <CATEGORY_5>: X hours, Y%
+- Categorize meetings by type (e.g., Strategy, 1:1, Team, External) with hours and %.
 
-🎯 HIGH-IMPACT MEETINGS (Top <NUMBER>):
+🎯 HIGH-IMPACT MEETINGS:
+Identify top 3-5 meetings requiring significant preparation or decision making.
 1. <Meeting> - <Attendees> - <Prep needed>
-2. <Meeting> - <Attendees> - <Prep needed> 
-3. <Meeting> - <Attendees> - <Prep needed>
 
 ⏱️ DEEP WORK BLOCKS:
-- Available <MIN_DURATION>+ hour blocks for <PRIMARY_WORK>
-- Best times for <THINKING_TYPE> thinking"
+- Available 1+ hour blocks for Deep Work
+- Best times for Strategic thinking"
 ```
 
 ---
@@ -102,6 +102,9 @@ Table format: Request | Who | Deadline | Context/Urgency"
 
 **Prompt T1: Analytics Team Pulse & Data Health**
 ```
+TEAM_NAME = USER_INPUT_REQUIRED
+TIME_PERIOD = USER_INPUT_REQUIRED
+
 "Summarize <TEAM_NAME> team updates from past <TIME_PERIOD> across all channels:
 
 📊 PIPELINE & DELIVERY:
@@ -114,7 +117,7 @@ Project | Owner | Status | % Complete | Next Milestone
 
 🚫 BLOCKERS:
 - Technical constraints (Cloud/Compute)
-- Missing requirements from <STAKEHOLDER_TYPE>
+- Missing requirements from Key Stakeholders
 - Resource bottlenecks
 
 ⚡ DECISIONS NEEDED:
@@ -123,51 +126,53 @@ Project | Owner | Status | % Complete | Next Milestone
 - Resource allocation"
 ```
 
-**Prompt T2: <STAKEHOLDER_TYPE> Meeting Preparation**
+**Prompt T2: Meeting Preparation**
 ```
+MEETING_NAME = USER_INPUT_REQUIRED
+STAKEHOLDER_NAME = USER_INPUT_REQUIRED
+TIME_PERIOD = USER_INPUT_REQUIRED
+
 "Prepare for <MEETING_NAME> with <STAKEHOLDER_NAME>:
 
 📚 MEETING CONTEXT:
-- Previous meeting outcomes from <TIME_PERIOD>
-- Recent chat discussions about <TOPIC_AREA>
-- Shared documents/files related to <PROJECT_NAME>
+- Previous meeting outcomes from last <TIME_PERIOD>
+- Recent chat discussions and shared documents related to the meeting topic
 
 📈 RELEVANT METRICS:
-- Current <METRIC_1>: X%
-- <METRIC_2>: $X
-- <STATUS_METRIC>: Green/Yellow/Red
+- Identify key performance indicators and status metrics relevant to the discussion
 
 💡 TALKING POINTS:
-1. <INSIGHT_TYPE> insight with supporting data
-2. <RECOMMENDATION_TYPE> recommendation
-3. <REQUEST_TYPE> request/issue
+1. Key insights with supporting data
+2. Strategic recommendations
+3. Requests or issues to address
 
 ❓ LIKELY QUESTIONS:
-- Question 1 about <TOPIC_1> → Prepared answer
-- Question 2 about <TOPIC_2> → Prepared answer"
+- Anticipate 3 hard questions the stakeholder might ask and prepare answers"
 ```
 
-**Prompt T3: Meeting Summary with <INDUSTRY> Context**
+**Prompt T3: Meeting Summary**
 ```
+MEETING_NAME = USER_INPUT_REQUIRED
+
 "Generate meeting summary from transcript/recording:
 
-📧 EMAIL SUBJECT: <MEETING_NAME> - Decisions & Actions - <DATE>
+📧 EMAIL SUBJECT: <MEETING_NAME> - Decisions & Actions - [Date]
 
 ✅ KEY DECISIONS:
-- <AREA_1> priority changes
-- <RESOURCE_TYPE>/resource approvals
-- <COMPLIANCE_TYPE> requirements
+- Priority changes
+- Resource approvals
+- Compliance/Regulatory requirements
 
 📋 ACTION ITEMS:
 Task | Owner | Deadline | Dependencies | Success Criteria
 
 📅 FOLLOW-UP REQUIRED:
-- Next meeting: Date/Time
-- Preparation needed: <DOCUMENT_TYPE>/Analysis
+- Next meeting timing
+- Preparation/Analysis needed
 
 🅿️ PARKING LOT:
-- Items for future discussion about <TOPIC_AREA>
-- Unresolved <QUESTION_TYPE> questions"
+- Items for future discussion
+- Unresolved questions"
 ```
 
 ---
@@ -181,13 +186,13 @@ Task | Owner | Deadline | Dependencies | Success Criteria
 "Create weekly team priority matrix distinguishing Regulatory requirements from Commercial growth:
 
 🏦 REGULATORY & COMPLIANCE (MUST DO):
-- Audit/Risk findings (SLA: <SLA_DATE>)
+- Audit/Risk findings
 - Data Governance remediations
 - Mandatory Reporting
 *Goal: 100% Accuracy & Timeliness*
 
 🚀 COMMERCIAL & GROWTH (STRATEGIC):
-- Campaign Analytics for <PRODUCT_TYPE>
+- Campaign Analytics for Key Products
 - Customer Segmentation Models
 - ROI/Performance Analysis
 *Goal: Maximum Business Impact*
@@ -202,55 +207,51 @@ Visual Format: Priority | Category (Reg/Growth) | Owner | Stakeholder | Deadline
 
 **Prompt N2: Weekly Performance and Strategic Assessment**
 ```
-"Create comprehensive weekly <ROLE_TYPE> leadership review:
+"Create comprehensive weekly leadership review:
 
 🏆 WINS & ACHIEVEMENTS:
-- Quantified accomplishment 1 with <METRIC_TYPE> metrics
-- Quantified accomplishment 2 with <METRIC_TYPE> metrics  
-- Quantified accomplishment 3 with <METRIC_TYPE> metrics
+- Quantified accomplishments with metrics
 
 🔧 CHALLENGES & SOLUTIONS:
 Challenge | Root Cause | Action Plan | Owner | Timeline
 
 📊 STAKEHOLDER PULSE:
-- <STAKEHOLDER_1> Satisfaction: Feedback from recent interactions
-- <STAKEHOLDER_2>: <FEEDBACK_TYPE>
-- <STAKEHOLDER_3> Partnership: <COLLABORATION_STATUS>
+- Key Stakeholder Satisfaction and Feedback
+- Partnership status updates
 
 🎯 NEXT WEEK'S STRATEGIC FOCUS:
-1. <INITIATIVE_TYPE> initiative with <SUCCESS_TYPE> metrics
-2. <INITIATIVE_TYPE> initiative with <SUCCESS_TYPE> metrics
-3. <INITIATIVE_TYPE> initiative with <SUCCESS_TYPE> metrics"
+1. Key initiatives with success metrics"
 ```
 
-**Prompt N3: <TEAM_NAME> Meeting Agenda Generation**
+**Prompt N3: Meeting Agenda Generation**
 ```
+TEAM_NAME = USER_INPUT_REQUIRED
+DURATION = USER_INPUT_REQUIRED
+
 "Create <TEAM_NAME> meeting agenda (<DURATION> minutes):
 
-📋 AGENDA: <DATE> <TEAM_NAME> Team Meeting
+📋 AGENDA: [Date] <TEAM_NAME> Team Meeting
 
-🚀 PROJECT UPDATES (<TIME_1> minutes):
-- <PROJECT_1>: <Owner> - Status/Blockers
-- <PROJECT_2>: <Owner> - Status/Blockers  
-- <PROJECT_3>: <Owner> - Status/Blockers
+🚀 PROJECT UPDATES:
+- Status/Blockers for Key Projects
 
-👥 RESOURCE REVIEW (<TIME_2> minutes):
+👥 RESOURCE REVIEW:
 - Team capacity analysis
-- <SKILL_TYPE> development needs
+- Skill development needs
 - Upcoming hiring/contractor needs
 
-🎯 TEAM DEVELOPMENT (<TIME_3> minutes):
-- <TRAINING_TYPE> opportunities
+🎯 TEAM DEVELOPMENT:
+- Training opportunities
 - Recognition/celebrations
-- <DEVELOPMENT_TYPE> development discussions
+- Development discussions
 
-⚡ QUICK HITS (<TIME_4> minutes):
+⚡ QUICK HITS:
 - Announcements
 - Reminders
 - Next meeting logistics"
 ```
 
-**Prompt N4: <TEAM_TYPE> Project Resource Optimization**
+**Prompt N4: Project Resource Optimization**
 ```
 "Create team resource optimization analysis:
 
@@ -261,110 +262,108 @@ Project | % Complete | Team Members | Hours/Week | Target Completion
 Team Member | Current Utilization % | Key Skills | Available Capacity
 
 🔄 OPTIMIZATION RECOMMENDATIONS:
-- Reallocation suggestion 1 for <PROJECT_TYPE> with rationale
-- Reallocation suggestion 2 for <PROJECT_TYPE> with rationale
-- <SKILL_TYPE> development priority with timeline
+- Reallocation suggestions with rationale
+- Skill development priorities with timeline
 
 📈 TIMELINE IMPACTS:
-- Projects that can be accelerated: List with new timelines
-- Projects requiring extension: List with revised dates
-- Resource bottlenecks: <BOTTLENECK_TYPE> and solutions"
+- Projects that can be accelerated
+- Projects requiring extension
+- Resource bottlenecks and solutions"
 ```
 
-**Prompt N5: Data Governance and <COMPLIANCE_TYPE> Review**
+**Prompt N5: Data Governance and Compliance Review**
 ```
-"Generate monthly <GOVERNANCE_TYPE> governance status report:
+"Generate monthly Data Governance & Compliance status report:
 
 📊 COMPLIANCE DASHBOARD:
-- <QUALITY_METRIC> Score: X% (Target: <TARGET>%)
-- <VALIDATION_TYPE> Status: X of Y complete
-- <AUDIT_TYPE> Readiness: Green/Yellow/Red
-- <PRIVACY_TYPE> Compliance: X violations, Y resolved
+- Data Quality Score vs Target
+- Validation Status
+- Audit Readiness
+- Privacy Compliance violations/resolutions
 
 🚨 RISK INDICATORS:
 Risk Type | Severity | Impact | Mitigation Status | Owner
 
 ⚡ IMMEDIATE ACTIONS REQUIRED:
-- Action 1 - <Deadline> - <Owner>
-- Action 2 - <Deadline> - <Owner>
+- Action items with Deadlines and Owners
 
 📈 TREND ANALYSIS:
-- Month-over-month improvements: List
-- Concerning patterns: List with action plans
-- <REGULATORY_TYPE> updates affecting <BUSINESS_AREA>: Summary"
+- Month-over-month improvements
+- Concerning patterns with action plans
+- Regulatory updates affecting the business"
 ```
 
 **Prompt N6: C-Suite Strategic Brief**
 ```
-"Create a one-page strategic brief for <AUDIENCE_LEVEL> (Non-Technical Audience). Focus on financial impact and market position.
+"Create a one-page strategic brief for Executive Audience (Non-Technical). Focus on financial impact and market position.
 
 🎯 EXECUTIVE HEADLINES:
-1. **Financial Impact:** $<VALUE> value realized from <INITIATIVE_TYPE>
-2. **Market Opportunity:** <OPPORTUNITY_TYPE> with potential <ROI_TYPE>
-3. **Risk Mitigation:** <RISK_TYPE> addressed, protecting <ASSET_TYPE>
+1. **Financial Impact:** Value realized from key initiatives
+2. **Market Opportunity:** Potential ROI and growth areas
+3. **Risk Mitigation:** Risks addressed and assets protected
 
 📊 BUSINESS PERFORMANCE (Financials & Growth):
-- <METRIC_1> (Revenue/Cost): Current vs Target
-- <METRIC_2> (Customer): Acquisition/Retention Trends
-- <METRIC_3> (Market): Share/Competitive Position
+- Revenue/Cost vs Target
+- Customer Acquisition/Retention Trends
+- Market Share/Competitive Position
 
 💡 DECISION REQUIRED:
-- **Proposal:** <Recommendation>
-- **Financial Benefit:** <ROI estimate> over <Timeline>
-- **Investment:** <Cost> (CAPEX/OPEX)
+- **Proposal:** Recommendation
+- **Financial Benefit:** ROI estimate over timeline
+- **Investment:** Cost (CAPEX/OPEX)
 
 💰 RESOURCE ALLOCATION:
-- <RESOURCE_TYPE_1>: <Need> - <Business case>
-- <RESOURCE_TYPE_2>: <Role> - <Impact on P&L>"
+- Critical resource needs with business case"
 ```
 
-**Prompt N7: <BUSINESS_FUNCTION> ROI Report**
+**Prompt N7: ROI Report**
 ```
+BUSINESS_FUNCTION = USER_INPUT_REQUIRED
+
 "Generate comprehensive <BUSINESS_FUNCTION> ROI analysis:
 
-📈 <CHANNEL_TYPE> PERFORMANCE MATRIX:
-Channel | <COST_METRIC> | <VALUE_METRIC> | ROI % | Volume | Trend
+📈 CHANNEL PERFORMANCE MATRIX:
+Channel | Cost | Value | ROI % | Volume | Trend
 
-🏆 <INITIATIVE_TYPE> EFFECTIVENESS:
+🏆 INITIATIVE EFFECTIVENESS:
 TOP PERFORMERS:
-1. <INITIATIVE_NAME> - <ROI> - Key success factors
-2. <INITIATIVE_NAME> - <ROI> - Key success factors
-3. <INITIATIVE_NAME> - <ROI> - Key success factors
+- Identify top 3 initiatives with ROI and key success factors
 
 IMPROVEMENT NEEDED:
-1. <INITIATIVE_NAME> - Issues - Action plan
-2. <INITIATIVE_NAME> - Issues - Action plan
+- Identify underperforming initiatives with action plans
 
 💰 BUDGET OPTIMIZATION:
 Current Allocation | Recommended | Expected Impact | Risk Level
 
 ⚖️ COMPLIANCE CONSIDERATIONS:
-- <COMPLIANCE_AREA_1> regulations: Status
-- <COMPLIANCE_AREA_2> compliance: Assessment
-- <MONITORING_TYPE> monitoring: Results"
+- Regulatory compliance status
+- Monitoring results"
 ```
 
-**Prompt N8: <TECHNOLOGY_TYPE> Strategy Development**
+**Prompt N8: Strategy Development**
 ```
+TECHNOLOGY_TYPE = USER_INPUT_REQUIRED
+TIME_PERIOD = USER_INPUT_REQUIRED
+
 "Develop <TIME_PERIOD> <TECHNOLOGY_TYPE> strategy roadmap:
 
 🎯 CAPABILITY GAP ANALYSIS:
 Current State | Target State | Priority | Effort Level
 
 🛠️ TECHNOLOGY ROADMAP:
-Phase 1 (<TIMEFRAME_1>): <INFRASTRUCTURE_TYPE> needs
-Phase 2 (<TIMEFRAME_2>): <IMPLEMENTATION_TYPE> implementation 
-Phase 3 (<TIMEFRAME_3>): <CAPABILITY_TYPE> capabilities
+Phase 1 (Short-term): Foundation & Infrastructure
+Phase 2 (Mid-term): Core Implementation
+Phase 3 (Long-term): Advanced Capabilities
 
 👥 TEAM DEVELOPMENT PLAN:
 Team Member | Current Skills | Target Skills | Training Plan | Timeline
 
 📊 SUCCESS METRICS BY PHASE:
-<MILESTONE_1>: <Target> | Success Criteria | Risk Mitigation
+Key Milestones | Target | Success Criteria | Risk Mitigation
 
 💼 BUSINESS CASE:
 - Investment Required: Total cost breakdown
-- Expected Benefits: Quantified <BENEFIT_TYPE>
+- Expected Benefits: Quantified ROI and impact
 - Risk Assessment: Likelihood and impact"
 ```
 
@@ -508,41 +507,3 @@ Team Member | Current Skills | Target Skills | Training Plan | Timeline
 - **Template library** for quick prompt access
 - **Linked notebooks** for cross-reference capabilities
 - **Shared sections** for team collaboration
-
----
-
-# 🎯 Template Customization Guide
-
-## Common Placeholder Values
-
-### Time-Related
-- `<TIME_PERIOD>`: 24 hours, 48 hours, week, month
-- `<TIMEFRAME>`: 48 hours, 72 hours, end of week
-- `<TIME_WINDOW>`: 2 hours, 4 hours, morning, afternoon
-- `<DURATION>`: 30, 45, 60, 90 minutes
-
-### Team & Role
-- `<TEAM_NAME>`: Marketing Analytics, Sales Operations, Product Development
-- `<TEAM_TYPE>`: Analytics, Marketing, Sales, Operations
-- `<ROLE_TYPE>`: Analytics, Marketing, Operations, Technical
-
-### Business Context
-- `<INDUSTRY>`: Banking, Healthcare, Retail, Technology
-- `<BUSINESS_AREA>`: Analytics, Marketing, Sales, Operations
-- `<PRIMARY_FOCUS>`: Analytics, Marketing, Sales, Operations
-
-### Stakeholders
-- `<STAKEHOLDER_TYPE>`: Internal, External, Client, Vendor
-- `<EXECUTIVE_LEVEL>`: C-suite, VP, Director, Senior Management
-- `<LEADERSHIP_LEVEL>`: Executive, Senior Management, C-suite
-
-### Metrics & Performance
-- `<PRIMARY_METRIC>`: Campaign, Product, Sales, Project
-- `<METRIC_TYPE>`: Performance, Financial, Quality, Efficiency
-- `<SUCCESS_TYPE>`: Performance, Quality, Efficiency, Impact
-
-### Projects & Initiatives
-- `<PROJECT_TYPE>`: Analytics, Development, Implementation, Research
-- `<INITIATIVE_TYPE>`: Strategic, Operational, Technical, Process
-
-This updated format with `<placeholder>` brackets makes it much clearer which elements need to be customized for your specific use case.

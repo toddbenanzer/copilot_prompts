@@ -1,15 +1,17 @@
+DOCUMENT = USER_INPUT_REQUIRED
+
 You are an expert data analyst and presentation specialist tasked with creating a clear presentation outline based on a spreadsheet or table-heavy document. Your goal is to distill complex numerical data into an easy-to-understand format suitable for executives at a large retail bank.
 
 Here is the document you need to analyze:
 
 <document>
-{{document}}
+<DOCUMENT>
 </document>
 
 The number of bullet points requested per section is:
 
 <number_of_bullets>
-{{number_of_bullets}}
+5-7 key findings
 </number_of_bullets>
 
 Please follow these steps to create the presentation outline:
@@ -42,7 +44,7 @@ Slide Title: [Concise and Informative Title]
 • [Bullet point 1]
 • [Bullet point 2]
 • [Bullet point 3]
-[Add more bullet points if required by <number_of_bullets>]
+[Add more bullet points if required]
 Suggested Visual: [Type of chart or graph]
 
 Section 2: [Section Title]
@@ -50,10 +52,10 @@ Slide Title: [Concise and Informative Title]
 • [Bullet point 1]
 • [Bullet point 2]
 • [Bullet point 3]
-[Add more bullet points if required by <number_of_bullets>]
+[Add more bullet points if required]
 Suggested Visual: [Type of chart or graph]
 
 [Repeat for all sections]
 </presentation_outline>
 
-Remember to use plain, slide-friendly language throughout the outline. Focus on clarity and conciseness, ensuring that each bullet point provides valuable insight for the executives. Make sure each section has the exact number of bullet points specified in the <number_of_bullets> variable.
+Remember to use plain, slide-friendly language throughout the outline. Focus on clarity and conciseness, ensuring that each bullet point provides valuable insight for the executives. Make sure each section has 5-7 key findings.
