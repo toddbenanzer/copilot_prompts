@@ -1,6 +1,8 @@
+GOVERNANCE_SCOPE = USER_INPUT_REQUIRED
+
 Deep Thinking: Activate
 
-Generate a monthly <GOVERNANCE_TYPE> governance status report by searching through my emails, chats, and recent documents for keywords related to <GOVERNANCE_TYPE>, compliance reports, audit findings, and data quality metrics.
+Generate a monthly <GOVERNANCE_SCOPE> governance status report by searching through my emails, chats, and recent documents for keywords related to <GOVERNANCE_SCOPE>, compliance reports, audit findings, and data quality metrics.
 
 Chain of Thought Guidance:
 1.  **Analyze**: Scan gathered information to identify compliance gaps, risk trends, and required actions.
@@ -13,31 +15,30 @@ Output Structure:
 (1-2 sentences summarizing the overall governance health, highlighting critical risks or achievements.)
 
 ### Summary Table
-| Metric | Status | Trend |
+| Key Governance Metric | Status/Value | Trend |
 | :--- | :--- | :--- |
-| <QUALITY_METRIC> Score | X% (Target: <TARGET>%) | [Up/Down/Stable] |
-| <VALIDATION_TYPE> Status | X of Y complete | [Progress] |
-| <AUDIT_TYPE> Readiness | Green/Yellow/Red | [Readiness Level] |
-| <PRIVACY_TYPE> Compliance | X violations, Y resolved | [Resolution Rate] |
+| [Key Quality Metric] | [Value/Target] | [Up/Down/Stable] |
+| [Validation Status] | [Count/Progress] | [Progress] |
+| [Audit Readiness] | [RAG Status] | [Readiness Level] |
+| [Privacy Compliance] | [Violations/Resolved] | [Resolution Rate] |
 
 ### Detailed Results
 
 **COMPLIANCE DASHBOARD:**
-- **<QUALITY_METRIC> Score:** X% (Target: <TARGET>%) - *Context/Notes*
-- **<VALIDATION_TYPE> Status:** X of Y complete - *Context/Notes*
-- **<AUDIT_TYPE> Readiness:** Green/Yellow/Red - *Context/Notes*
-- **<PRIVACY_TYPE> Compliance:** X violations, Y resolved - *Context/Notes*
+- **Key Quality Metrics:** [Score/Value vs Target] - *Context/Notes*
+- **Validation Activities:** [Status/Progress] - *Context/Notes*
+- **Audit Readiness:** [Green/Yellow/Red] - *Context/Notes*
+- **Privacy Compliance:** [Violations/Resolutions] - *Context/Notes*
 
 **RISK INDICATORS:**
 | Risk Type | Severity | Impact | Mitigation Status | Owner |
 | :--- | :--- | :--- | :--- | :--- |
-| [Risk 1] | [High/Med/Low] | [Description] | [Status] | [Owner] |
+| [Identified Risk] | [High/Med/Low] | [Description] | [Status] | [Owner] |
 
 **IMMEDIATE ACTIONS REQUIRED:**
-- **Action 1:** [Description] - <Deadline> - <Owner>
-- **Action 2:** [Description] - <Deadline> - <Owner>
+- **Action:** [Description] - [Deadline] - [Owner]
 
 **TREND ANALYSIS:**
 - **Month-over-month improvements:** [List]
 - **Concerning patterns:** [List with action plans]
-- **<REGULATORY_TYPE> updates affecting <BUSINESS_AREA>:** [Summary]
+- **Regulatory Updates:** [Summary of updates affecting business area]

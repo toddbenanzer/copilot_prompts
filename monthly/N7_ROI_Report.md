@@ -1,3 +1,5 @@
+BUSINESS_FUNCTION = USER_INPUT_REQUIRED
+
 Deep Thinking: Activate
 
 Generate a comprehensive <BUSINESS_FUNCTION> ROI analysis by searching through my emails, chats, and recent documents for <BUSINESS_FUNCTION> performance data, budget discussions, campaign results, and compliance assessments.
@@ -15,28 +17,28 @@ Output Structure:
 ### Summary Table
 | Metric | Value | YoY Change |
 | :--- | :--- | :--- |
-| **Total Spend** | $<AMOUNT> | [Trend] |
-| **Total Value Generated** | $<AMOUNT> | [Trend] |
-| **Overall ROI** | <PERCENT>% | [Trend] |
-| **Top Channel** | <CHANNEL_NAME> | <ROI>% |
+| **Total Spend** | [Amount] | [Trend] |
+| **Total Value Generated** | [Amount] | [Trend] |
+| **Overall ROI** | [Percent] | [Trend] |
+| **Top Channel** | [Channel Name] | [ROI%] |
 
 ### Detailed Results
 
-**<CHANNEL_TYPE> PERFORMANCE MATRIX:**
-| Channel | <COST_METRIC> | <VALUE_METRIC> | ROI % | Volume | Trend |
+**CHANNEL PERFORMANCE MATRIX:**
+| Channel | Cost | Value | ROI % | Volume | Trend |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [Channel 1] | [Cost] | [Value] | [ROI] | [Vol] | [Trend] |
+| [Channel Name] | [Cost] | [Value] | [ROI] | [Vol] | [Trend] |
 
-**<INITIATIVE_TYPE> EFFECTIVENESS:**
+**INITIATIVE EFFECTIVENESS:**
 
 *TOP PERFORMERS:*
-1.  **<INITIATIVE_NAME>** - <ROI> - *Key success factors*
-2.  **<INITIATIVE_NAME>** - <ROI> - *Key success factors*
-3.  **<INITIATIVE_NAME>** - <ROI> - *Key success factors*
+1.  **[Initiative Name]** - [ROI] - *Key success factors*
+2.  **[Initiative Name]** - [ROI] - *Key success factors*
+3.  **[Initiative Name]** - [ROI] - *Key success factors*
 
 *IMPROVEMENT NEEDED:*
-1.  **<INITIATIVE_NAME>** - *Issues - Action plan*
-2.  **<INITIATIVE_NAME>** - *Issues - Action plan*
+1.  **[Initiative Name]** - *Issues - Action plan*
+2.  **[Initiative Name]** - *Issues - Action plan*
 
 **BUDGET OPTIMIZATION:**
 | Current Allocation | Recommended | Expected Impact | Risk Level |
@@ -44,6 +46,6 @@ Output Structure:
 | [Current] | [New] | [Impact] | [Risk] |
 
 **COMPLIANCE CONSIDERATIONS:**
-- **<COMPLIANCE_AREA_1> regulations:** Status - *Notes*
-- **<COMPLIANCE_AREA_2> compliance:** Assessment - *Notes*
-- **<MONITORING_TYPE> monitoring:** Results - *Notes*
+- **Regulatory Requirements:** Status - *Notes*
+- **Internal Compliance:** Assessment - *Notes*
+- **Monitoring Results:** Results - *Notes*
