@@ -8,37 +8,44 @@ Here is the document:
 
 Your task is to create a 7-slide presentation based on this document. Follow these guidelines:
 
-1. Structure:
-   - Slide 1: Title/Intro
-   - Slides 2-6: Main content (5 slides)
-   - Slide 7: Conclusion or key takeaways
+1. **Context Expansion**:
+   - Use your capabilities to search through my recent emails, chats, and documents for additional context, clarifications, or related materials that support the content of the dictated note.
+   - Look for specific names, project codes, or dates mentioned in the note to anchor your search.
 
-2. For each slide:
-   - Provide a clear and concise title (5-7 words)
-   - Include 3-5 key bullet points
-   - Focus on main ideas and avoid filler content
-   - Use simple, slide-appropriate language (not full paragraphs)
+2. **Deep Thinking Analysis**:
+   - Engage in a deep, step-by-step reasoning process.
+   - Analyze the dictated note to identify the core message, key themes, and intended audience.
+   - Consider the narrative flow: How should the story unfold across 7 slides?
+   - Evaluate any potential gaps in the information and use your search results to fill them.
 
-3. Additional requirements:
-   - Avoid repeating points across slides
-   - Group related ideas where possible
-   - Suggest where visuals (charts, images, icons) might be useful
+3. **Presentation Planning**:
+   - Outline the key points for each slide inside <presentation_planning> tags. Follow these steps:
+     a. Summarize the main topics and themes from the document and your external search.
+     b. Identify 5 key points that should be covered in the presentation.
+     c. Outline a rough structure for the 7 slides, including potential titles and main ideas for each.
+     d. Consider potential visuals for each slide.
 
-Before creating the presentation, analyze the document, plan your approach, and outline the key points for each slide inside <presentation_planning> tags. Follow these steps:
+4. **Output Generation**:
+   - Create the final output using the following structure:
 
-1. Summarize the main topics and themes from the document.
-2. Identify 5 key points that should be covered in the presentation.
-3. Outline a rough structure for the 7 slides, including potential titles and main ideas for each.
-4. Consider potential visuals for each slide.
+   **Executive Overview**:
+   - Provide a concise 1-2 sentence summary of the presentation's goal and key message.
 
-Then, present the slides in a format that's easy to copy into Google Slides or PowerPoint.
+   **Summary Table**:
+   - Create a table listing the 7 slides with their proposed titles and the main objective of each slide.
 
-Here's an example of the desired output format:
+   **Detailed Content Expansion**:
+   - Provide a more detailed breakdown of the content for each slide, including supporting data or context found during your search.
 
-Slide 1: [Title]
-• [Bullet point 1]
-• [Bullet point 2]
-• [Bullet point 3]
-[Visual suggestion, if applicable]
+   **Presentation Slides**:
+   - Present the slides in a format that's easy to copy into Google Slides or PowerPoint.
+
+   Slide 1: [Title]
+   • [Bullet point 1]
+   • [Bullet point 2]
+   • [Bullet point 3]
+   [Visual suggestion, if applicable]
+
+   [Repeat for all slides]
 
 Begin by analyzing the document and planning your presentation.
