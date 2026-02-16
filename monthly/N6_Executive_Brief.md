@@ -1,20 +1,36 @@
-"Create a one-page strategic brief for <AUDIENCE_LEVEL> (Non-Technical Audience). Focus on financial impact and market position.
+Deep Thinking: Activate
 
-EXECUTIVE HEADLINES:
-1. **Financial Impact:** $<VALUE> value realized from <INITIATIVE_TYPE>
-2. **Market Opportunity:** <OPPORTUNITY_TYPE> with potential <ROI_TYPE>
-3. **Risk Mitigation:** <RISK_TYPE> addressed, protecting <ASSET_TYPE>
+Create a one-page strategic brief for <AUDIENCE_LEVEL> (Non-Technical Audience) by searching through my emails, chats, and recent documents for updates on <INITIATIVE_TYPE>, financial reports, market analysis, and strategic discussions. Focus on financial impact and market position.
 
-BUSINESS PERFORMANCE (Financials & Growth):
-- <METRIC_1> (Revenue/Cost): Current vs Target
-- <METRIC_2> (Customer): Acquisition/Retention Trends
-- <METRIC_3> (Market): Share/Competitive Position
+Chain of Thought Guidance:
+1.  **Analyze**: Synthesize financial data and market trends to evaluate the initiative's impact.
+2.  **Evaluate**: Identify key risks and opportunities discussed in recent leadership communications.
+3.  **Construct**: Structure the findings into a compelling narrative for executives, prioritizing bottom-line impact.
 
-DECISION REQUIRED:
+Output Structure:
+
+### Executive Overview
+(1-2 sentences highlighting the primary value realization and the critical decision needed.)
+
+### Summary Table
+| Strategic Pillar | Key Metric | Status/Impact |
+| :--- | :--- | :--- |
+| **Financial Impact** | $<VALUE> value realized | [On Track/Risk] |
+| **Market Opportunity** | <OPPORTUNITY_TYPE> | [Potential ROI] |
+| **Risk Mitigation** | <RISK_TYPE> addressed | [Protected Asset] |
+
+### Detailed Results
+
+**BUSINESS PERFORMANCE (Financials & Growth):**
+- **<METRIC_1> (Revenue/Cost):** Current vs Target - *Trend Analysis*
+- **<METRIC_2> (Customer):** Acquisition/Retention Trends - *Trend Analysis*
+- **<METRIC_3> (Market):** Share/Competitive Position - *Trend Analysis*
+
+**DECISION REQUIRED:**
 - **Proposal:** <Recommendation>
 - **Financial Benefit:** <ROI estimate> over <Timeline>
 - **Investment:** <Cost> (CAPEX/OPEX)
 
-RESOURCE ALLOCATION:
-- <RESOURCE_TYPE_1>: <Need> - <Business case>
-- <RESOURCE_TYPE_2>: <Role> - <Impact on P&L>"
+**RESOURCE ALLOCATION:**
+- **<RESOURCE_TYPE_1>:** <Need> - <Business case>
+- **<RESOURCE_TYPE_2>:** <Role> - <Impact on P&L>
