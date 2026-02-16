@@ -1,3 +1,6 @@
+TEAM_NAME = USER_INPUT_REQUIRED
+TIME_PERIOD = USER_INPUT_REQUIRED
+
 # Weekly Team Meeting Agenda Generation
 
 **Role:** Executive Assistant for a Marketing Analytics Executive.
@@ -5,7 +8,7 @@
 **Objective:** Create a targeted and efficient agenda for the upcoming <TEAM_NAME> meeting based on real-time team activity.
 
 **Scope:**
-Search through my emails, chats, and recent documents (from the past week) to identify active projects, pressing issues, team accomplishments, and resource needs. Do not recycle old agendas; build this one fresh from current context.
+Search through my emails, chats, and recent documents (from <TIME_PERIOD>) to identify active projects, pressing issues, team accomplishments, and resource needs. Do not rely solely on old agendas; build this one fresh from current context.
 
 **Chain of Thought Guidance:**
 1.  **Scan for Active Projects:** Search for recent updates, status reports, or questions about specific projects to include in the "Project Updates" section. Prioritize those with blockers or recent milestones mentioned in chats.
@@ -27,19 +30,19 @@ Use Deep Thinking mode to ensure the agenda drives decision-making and problem-s
 
 3.  **Detailed Results:**
 
-    *   **Project Updates (<TIME_1> minutes):**
-        *   1. **<Project Name>**
-            *   *Owner:* <Name>
-            *   *Context:* <Recent update/blocker found in email/chat>
+    *   **Project Updates ([Time] minutes):**
+        *   1. **[Project Name]**
+            *   *Owner:* [Owner]
+            *   *Context:* [Recent update/blocker found in email/chat]
 
-    *   **Resource Review (<TIME_2> minutes):**
-        *   *Capacity Analysis:* <Current state>
-        *   *Hiring/Contractor Needs:* <Specific roles/requests>
+    *   **Resource Review ([Time] minutes):**
+        *   *Capacity Analysis:* [Current state]
+        *   *Hiring/Contractor Needs:* [Specific roles/requests]
 
-    *   **Team Development (<TIME_3> minutes):**
-        *   *Opportunities:* <Training/Events>
-        *   *Recognition:* <Specific wins to celebrate>
+    *   **Team Development ([Time] minutes):**
+        *   *Opportunities:* [Training/Events]
+        *   *Recognition:* [Specific wins to celebrate]
 
-    *   **Quick Hits (<TIME_4> minutes):**
-        *   <Announcement 1>
-        *   <Reminder 1>
+    *   **Quick Hits ([Time] minutes):**
+        *   [Announcement 1]
+        *   [Reminder 1]

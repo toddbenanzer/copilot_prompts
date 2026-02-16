@@ -1,3 +1,5 @@
+TIME_PERIOD = USER_INPUT_REQUIRED
+
 # Weekly Performance Assessment
 
 **Role:** Executive Assistant for a Marketing Analytics Executive.
@@ -5,7 +7,7 @@
 **Objective:** Create a comprehensive weekly leadership review, highlighting wins, challenges, and stakeholder sentiment based on recent communications.
 
 **Scope:**
-Search through my emails, chats, and recent documents (from the past week) to find evidence of accomplishments, positive feedback, or project milestones, as well as issues or blockers. Don't just list tasks; look for impact.
+Search through my emails, chats, and recent documents (from <TIME_PERIOD>) to find evidence of accomplishments, positive feedback, or project milestones, as well as issues or blockers. Don't just list tasks; look for impact.
 
 **Chain of Thought Guidance:**
 1.  **Gather Wins:** Scan for keywords like "congratulations," "great job," "approved," "launched," or "delivered" to identify key accomplishments. Quantify them where possible (e.g., ROI, time saved).
@@ -27,21 +29,21 @@ Use Deep Thinking mode to connect tactical wins to strategic goals and identify 
 3.  **Detailed Results:**
 
     *   **Wins & Achievements:**
-        *   1. **<Achievement Name>**
-            *   *Metric:* <Quantifiable Result>
-            *   *Source:* <Email/Chat Context>
+        *   1. **[Achievement Name]**
+            *   *Metric:* [Quantifiable Result]
+            *   *Source:* [Source]
 
     *   **Challenges & Solutions:**
-        *   1. **<Challenge Name>**
-            *   *Root Cause:* <Analysis>
-            *   *Action Plan:* <Next Step>
-            *   *Owner:* <Responsible Person>
-            *   *Timeline:* <Expected Resolution>
+        *   1. **[Challenge Name]**
+            *   *Root Cause:* [Analysis]
+            *   *Action Plan:* [Next Step]
+            *   *Owner:* [Responsible Person]
+            *   *Timeline:* [Expected Resolution]
 
     *   **Stakeholder Pulse:**
-        *   *<Stakeholder Name>:* <Sentiment/Feedback based on recent interactions>
-        *   *<Stakeholder Name>:* <Sentiment/Feedback based on recent interactions>
+        *   *[Stakeholder Name]:* [Sentiment/Feedback based on recent interactions]
+        *   *[Stakeholder Name]:* [Sentiment/Feedback based on recent interactions]
 
     *   **Next Week's Strategic Focus:**
-        *   1. **<Initiative Name>**
-            *   *Goal:* <Target Metric>
+        *   1. **[Initiative Name]**
+            *   *Goal:* [Target Metric]
